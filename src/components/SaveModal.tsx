@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react';
 import type { Card } from '../types';
+import { resolveImageUrl } from '../lib/imageUrl';
 
 type SortMode = 'default' | 'color' | 'cost';
 
@@ -55,7 +56,7 @@ function sortCards(cards: { card: Card; count: number }[], mode: SortMode) {
 function getVariantImageUrl(card: Card, selectedVariants: Record<string, string>): string {
   const vid = selectedVariants[card.cardId];
   const v = vid ? card.variants.find((v) => v.variantId === vid) : undefined;
-  return (v ?? card.variants[0]).imageUrl;
+  return resolveImageUrl((v ?? card.variants[0]).imageUrl);
 }
 
 async function buildDeckImage(

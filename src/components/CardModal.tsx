@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import type { Card } from '../types';
 import { EX_TYPES, RESOURCE_TYPES } from '../hooks/useDeck';
+import { resolveImageUrl } from '../lib/imageUrl';
 
 type Props = {
   card: Card | null;
@@ -147,7 +148,7 @@ export default function CardModal({
           {selectedVariant && (
             <div className="flex justify-center">
               <img
-                src={selectedVariant.imageUrl}
+                src={resolveImageUrl(selectedVariant.imageUrl)}
                 alt={`${card.cardName} (${selectedVariant.rarity})`}
                 className="rounded-xl shadow-xl max-h-72 object-contain"
                 referrerPolicy="no-referrer"
