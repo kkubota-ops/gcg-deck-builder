@@ -137,7 +137,23 @@ export default function App() {
 
   const fillCard = cardById[DEFAULT_RESOURCE_ID] ?? null;
 
-  const RARITY_ORDER = ['C', 'U', 'R', 'LR', 'P'];
+  const BASE_RARITY_RANK: Record<string, number> = { C: 0, U: 1, R: 2, LR: 3, P: 4 };
+
+  function rarityLabel(rarity: string, parallel: string): string {
+    if (!parallel) return rarity;
+    if (parallel === '+' || parallel === '++') return rarity + parallel;
+    return `${rarity}/${parallel}`;
+  }
+
+  function rarityOrder(label: string): number {
+    const base = label.split('/')[0].replace(/\+/g, '');
+    const rank = (BASE_RARITY_RANK[base] ?? 99) * 100;
+    if (label === base) return rank;
+    if (label.includes('/')) return rank + 10;
+    if (label.endsWith('++')) return rank + 30;
+    if (label.endsWith('+')) return rank + 20;
+    return rank + 5;
+  }
 
   function writeExport(id: string) {
     try {
@@ -147,8 +163,8 @@ export default function App() {
         name: activeDeck.name,
         savedAt: Date.now(),
         cards: mainDeckCards.map(({ card, count }) => {
-          const rarities = [...new Set(card.variants.map(v => v.rarity))]
-            .sort((a, b) => RARITY_ORDER.indexOf(a) - RARITY_ORDER.indexOf(b));
+          const rarities = [...new Set(card.variants.map(v => rarityLabel(v.rarity, v.parallel)))]
+            .sort((a, b) => rarityOrder(a) - rarityOrder(b));
           return { name: card.cardName, count, rarities, defaultRarity: rarities[0] ?? '' };
         }),
       };

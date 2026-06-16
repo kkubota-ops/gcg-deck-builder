@@ -64,7 +64,13 @@ function CardRowItem({
   const typeAtLimit = card.cardType === 'EX RESOURCE' && exResourceTotal >= exResourceTypeMax;
   const vid = selectedVariants[card.cardId];
   const variant = vid ? card.variants.find(v => v.variantId === vid) : card.variants[0];
-  const rarity = variant?.rarity ?? '';
+  const rarity = variant
+    ? (variant.parallel
+        ? (variant.parallel === '+' || variant.parallel === '++'
+            ? variant.rarity + variant.parallel
+            : `${variant.rarity}/${variant.parallel}`)
+        : variant.rarity)
+    : '';
 
   return (
     <div className="bg-[#1e1e1e] border border-gray-800 rounded-lg px-3 py-2.5 flex items-center gap-2">
