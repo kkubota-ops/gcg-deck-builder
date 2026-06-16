@@ -185,6 +185,12 @@ export default function App() {
         <h1 className="text-base font-bold text-white tracking-wide">
           GCG デッキビルダー
         </h1>
+        <p className="text-[10px] text-gray-600 mt-0.5">
+          非公式ファンツール ／ カード画像・データ:{' '}
+          <a href="https://www.gundam-gcg.com/jp/cards/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-400">
+            GUNDAM CARD GAME 公式サイト
+          </a>
+        </p>
       </header>
 
       {/* デッキ選択 */}
