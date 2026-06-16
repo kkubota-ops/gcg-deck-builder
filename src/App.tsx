@@ -250,6 +250,7 @@ export default function App() {
           totalMain={totalCards}
           mainDeckSize={totalDeckSize}
           savedId={savedId}
+          selectedVariants={selectedVariants}
           onSaveClick={handleSaveClick}
           onAdd={(card) => handleAdd(card)}
           onRemove={(card) => handleRemove(card)}

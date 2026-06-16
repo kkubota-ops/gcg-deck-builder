@@ -18,6 +18,7 @@ type Props = {
   totalMain: number;
   mainDeckSize: number;
   savedId?: string;
+  selectedVariants: Record<string, string>;
   onSaveClick: () => void;
   onAdd: (card: Card) => string | null;
   onRemove: (card: Card) => void;
@@ -29,7 +30,6 @@ function maxCopies(card: Card): number {
   if (card.cardType === 'RESOURCE') return 10;
   return 4;
 }
-
 
 function SectionHeader({ label, total, max }: { label: string; total: number; max: number }) {
   const over = total > max;
@@ -46,12 +46,14 @@ function SectionHeader({ label, total, max }: { label: string; total: number; ma
 function CardRowItem({
   card,
   count,
+  selectedVariants,
   exResourceTotal,
   exResourceTypeMax,
   onAdd,
   onRemove,
   onCardClick,
 }: CardRow & {
+  selectedVariants: Record<string, string>;
   exResourceTotal: number;
   exResourceTypeMax: number;
   onAdd: (c: Card) => string | null;
@@ -60,6 +62,10 @@ function CardRowItem({
 }) {
   const max = maxCopies(card);
   const typeAtLimit = card.cardType === 'EX RESOURCE' && exResourceTotal >= exResourceTypeMax;
+  const vid = selectedVariants[card.cardId];
+  const variant = vid ? card.variants.find(v => v.variantId === vid) : card.variants[0];
+  const rarity = variant?.rarity ?? '';
+
   return (
     <div className="bg-[#1e1e1e] border border-gray-800 rounded-lg px-3 py-2.5 flex items-center gap-2">
       <button
@@ -74,6 +80,11 @@ function CardRowItem({
         <span className="text-xs text-gray-400 bg-[#2a2a2a] px-1.5 py-0.5 rounded tabular-nums">
           {card.cost}/{card.level}
         </span>
+        {rarity && (
+          <span className="text-xs font-bold text-yellow-400 bg-yellow-400/10 px-1.5 py-0.5 rounded">
+            {rarity}
+          </span>
+        )}
         <button
           onClick={() => onRemove(card)}
           className="w-7 h-7 rounded-full bg-gray-700 hover:bg-gray-600 text-white text-base font-bold flex items-center justify-center transition-colors"
@@ -99,7 +110,7 @@ export default function DeckTab({
   mainCards, exCards, resourceCards, resourceFill, fillCard,
   totalEx, exDeckSize, totalResource, resourceDeckSize,
   exResourceTotal, exResourceTypeMax,
-  totalMain, mainDeckSize, savedId, onSaveClick,
+  totalMain, mainDeckSize, savedId, selectedVariants, onSaveClick,
   onAdd, onRemove, onCardClick,
 }: Props) {
   const isEmpty = mainCards.length === 0 && exCards.length === 0 && resourceCards.length === 0;
@@ -137,6 +148,7 @@ export default function DeckTab({
           <div className="px-3 space-y-1.5">
             {mainCards.map(({ card, count }) => (
               <CardRowItem key={card.cardId} card={card} count={count}
+                selectedVariants={selectedVariants}
                 exResourceTotal={exResourceTotal} exResourceTypeMax={exResourceTypeMax}
                 onAdd={onAdd} onRemove={onRemove} onCardClick={onCardClick} />
             ))}
@@ -151,6 +163,7 @@ export default function DeckTab({
           <div className="px-3 space-y-1.5">
             {exCards.map(({ card, count }) => (
               <CardRowItem key={card.cardId} card={card} count={count}
+                selectedVariants={selectedVariants}
                 exResourceTotal={exResourceTotal} exResourceTypeMax={exResourceTypeMax}
                 onAdd={onAdd} onRemove={onRemove} onCardClick={onCardClick} />
             ))}
@@ -165,6 +178,7 @@ export default function DeckTab({
           <div className="px-3 space-y-1.5">
             {resourceCards.map(({ card, count }) => (
               <CardRowItem key={card.cardId} card={card} count={count}
+                selectedVariants={selectedVariants}
                 exResourceTotal={exResourceTotal} exResourceTypeMax={exResourceTypeMax}
                 onAdd={onAdd} onRemove={onRemove} onCardClick={onCardClick} />
             ))}
