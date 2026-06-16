@@ -11,6 +11,12 @@
     "cardText": "〔WB隊〕の自分のユニットすべては《リペア1》を得る。\n(自分のターン終了時、このユニットを指定の数回復する)\n【セット時】このユニット以外の、自分のユニットが2つ以上いるなら、自分は1枚ドローする。",
     "variants": [
       {
+        "variantId": "GD01-001",
+        "rarity": "LR",
+        "parallel": "",
+        "imageUrl": "/card-images/GD01-001.webp"
+      },
+      {
         "variantId": "GD01-001-LR+",
         "rarity": "LR",
         "parallel": "+",
@@ -20,24 +26,6 @@
         "variantId": "GD01-001-LR++",
         "rarity": "LR",
         "parallel": "++",
-        "imageUrl": "/card-images/GD01-001_p2.webp"
-      },
-      {
-        "variantId": "GD01-001",
-        "rarity": "LR",
-        "parallel": "",
-        "imageUrl": "/card-images/GD01-001.webp"
-      },
-      {
-        "variantId": "GD01-001_p1",
-        "rarity": "LR",
-        "parallel": "P1",
-        "imageUrl": "/card-images/GD01-001_p1.webp"
-      },
-      {
-        "variantId": "GD01-001_p2",
-        "rarity": "LR",
-        "parallel": "P2",
         "imageUrl": "/card-images/GD01-001_p2.webp"
       }
     ]
@@ -54,21 +42,15 @@
     "cardText": "手札のこのカードをプレイするとき、Lv.5のカード名に「ユニコーンモード」を含む自分のリンクユニット1つを破壊してもよい。そうしたなら、これをLv.とコストを0としてプレイする。\n【アタック時】相手のユニット1つを選ぶ。それをレストにする。",
     "variants": [
       {
-        "variantId": "GD01-002-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-002_p1.webp"
-      },
-      {
         "variantId": "GD01-002",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD01-002.webp"
       },
       {
-        "variantId": "GD01-002_p1",
+        "variantId": "GD01-002-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-002_p1.webp"
       },
       {
@@ -91,21 +73,15 @@
     "cardText": "【リンク中】【アタック時】自分のトラッシュのカード12枚を選ぶ。それらを持ち主のデッキに戻し、シャッフルする。そうしたなら、このユニットをアクティブにし、このターン中、これは《先制攻撃》を得る。\n(アタック中のこのユニットは、相手より先にダメージを与える)",
     "variants": [
       {
-        "variantId": "GD01-003-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-003_p1.webp"
-      },
-      {
         "variantId": "GD01-003",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD01-003.webp"
       },
       {
-        "variantId": "GD01-003_p1",
+        "variantId": "GD01-003-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-003_p1.webp"
       }
     ]
@@ -153,21 +129,15 @@
     "cardText": "【リンク中】【破壊時】このユニットにセットされていたパイロットを持ち主の手札に戻す。その後、自分の手札1枚を捨てる。",
     "variants": [
       {
-        "variantId": "GD01-005-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-005_p1.webp"
-      },
-      {
         "variantId": "GD01-005",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD01-005.webp"
       },
       {
-        "variantId": "GD01-005_p1",
+        "variantId": "GD01-005-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-005_p1.webp"
       },
       {
@@ -196,21 +166,15 @@
     "cardText": "《リペア1》(自分のターン終了時、このユニットを指定の数回復する)\n【リンク中】このユニットをHP+1する。",
     "variants": [
       {
-        "variantId": "GD01-006-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-006_p1.webp"
-      },
-      {
         "variantId": "GD01-006",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD01-006.webp"
       },
       {
-        "variantId": "GD01-006_p1",
+        "variantId": "GD01-006-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-006_p1.webp"
       }
     ]
@@ -603,21 +567,15 @@
     "cardText": "【起動・メイン】自分の手札の〔ジオン〕/〔ネオ・ジオン〕のユニットカード1枚を捨てる：このユニットにパイロットがセットされていないなら、自分のトラッシュのLv.3以下の〔ニュータイプ〕のパイロットカード1枚を選ぶ。それをこれにセットする。",
     "variants": [
       {
-        "variantId": "GD01-023-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-023_p1.webp"
-      },
-      {
         "variantId": "GD01-023",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD01-023.webp"
       },
       {
-        "variantId": "GD01-023_p1",
+        "variantId": "GD01-023-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-023_p1.webp"
       }
     ]
@@ -634,21 +592,15 @@
     "cardText": "《高機動》(このユニットはブロックされない)\n【配備時】Lv.5以下のユニットすべてに3ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD01-024-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-024_p1.webp"
-      },
-      {
         "variantId": "GD01-024",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD01-024.webp"
       },
       {
-        "variantId": "GD01-024_p1",
+        "variantId": "GD01-024-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-024_p1.webp"
       },
       {
@@ -671,21 +623,15 @@
     "cardText": "【セット時・〔オペレーション・メテオ〕のパイロット】自分はリソース1つをレストで置く。その後、このターン中、このユニットは《先制攻撃》を得る。\n(アタック中のこのユニットは、相手より先にダメージを与える)",
     "variants": [
       {
-        "variantId": "GD01-025-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-025_p1.webp"
-      },
-      {
         "variantId": "GD01-025",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD01-025.webp"
       },
       {
-        "variantId": "GD01-025_p1",
+        "variantId": "GD01-025-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-025_p1.webp"
       }
     ]
@@ -733,21 +679,15 @@
     "cardText": "《突破4》(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)\n【配備時】自分のトラッシュに〔ジオン〕/〔ネオ・ジオン〕のユニットカードが10枚以上あるなら、《ブロッカー》を持つユニットすべてに4ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD01-027-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-027_p1.webp"
-      },
-      {
         "variantId": "GD01-027",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD01-027.webp"
       },
       {
-        "variantId": "GD01-027_p1",
+        "variantId": "GD01-027-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-027_p1.webp"
       }
     ]
@@ -789,21 +729,15 @@
     "cardText": "《突破4》(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)\n【アタック時】《ブロッカー》を持つLv.3以下の相手のユニット1つを選ぶ。それを破壊する。",
     "variants": [
       {
-        "variantId": "GD01-029-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-029_p1.webp"
-      },
-      {
         "variantId": "GD01-029",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD01-029.webp"
       },
       {
-        "variantId": "GD01-029_p1",
+        "variantId": "GD01-029-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-029_p1.webp"
       }
     ]
@@ -1116,21 +1050,15 @@
     "cardText": "【セット時・〔強化人間〕/〔ニュータイプ〕のパイロット】相手のユニット1～2つを選ぶ。それらに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD01-044-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-044_p1.webp"
-      },
-      {
         "variantId": "GD01-044",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD01-044.webp"
       },
       {
-        "variantId": "GD01-044_p1",
+        "variantId": "GD01-044-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-044_p1.webp"
       }
     ]
@@ -1147,21 +1075,15 @@
     "cardText": "【セット時】自分のデッキを上から3枚見て、その中の、Lv.4以下の〔ザフト〕のユニットカード1枚を配備してもよい。残ったカードは無作為に下に戻す。",
     "variants": [
       {
-        "variantId": "GD01-045-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-045_p1.webp"
-      },
-      {
         "variantId": "GD01-045",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD01-045.webp"
       },
       {
-        "variantId": "GD01-045_p1",
+        "variantId": "GD01-045-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-045_p1.webp"
       }
     ]
@@ -1178,21 +1100,15 @@
     "cardText": "【起動・メイン】《援護3》(レストにすることで、このターン中、他の味方のユニット1つをAP+(指定の数)する)\n【セット中・〔コーディネイター〕のパイロット】【ターン1回】このユニットの《援護》で〔ザフト〕のユニットをAP+したとき、これをアクティブにする。",
     "variants": [
       {
-        "variantId": "GD01-046-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-046_p1.webp"
-      },
-      {
         "variantId": "GD01-046",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD01-046.webp"
       },
       {
-        "variantId": "GD01-046_p1",
+        "variantId": "GD01-046-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-046_p1.webp"
       }
     ]
@@ -1209,21 +1125,15 @@
     "cardText": "【アタック時】このユニット以外のレストの味方のユニットが2つ以上いるなら、相手のユニット1つを選ぶ。それに3ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD01-047-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-047_p1.webp"
-      },
-      {
         "variantId": "GD01-047",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD01-047.webp"
       },
       {
-        "variantId": "GD01-047_p1",
+        "variantId": "GD01-047-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-047_p1.webp"
       },
       {
@@ -1290,21 +1200,15 @@
     "cardText": "【アタック時】このユニットがAP5以上で、相手のユニットにアタックしているなら、相手のユニット1つを選ぶ。それに2ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD01-050-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-050_p1.webp"
-      },
-      {
         "variantId": "GD01-050",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD01-050.webp"
       },
       {
-        "variantId": "GD01-050_p1",
+        "variantId": "GD01-050-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-050_p1.webp"
       }
     ]
@@ -1605,21 +1509,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)\n【セット中】【ターン1回】このユニットか、白の自分のユニットにパイロットをセットしたとき、相手のユニット1つを選ぶ。このターン中、それをAP-2する。",
     "variants": [
       {
-        "variantId": "GD01-065-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-065_p1.webp"
-      },
-      {
         "variantId": "GD01-065",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD01-065.webp"
       },
       {
-        "variantId": "GD01-065_p1",
+        "variantId": "GD01-065-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-065_p1.webp"
       },
       {
@@ -1642,21 +1540,15 @@
     "cardText": "【配備時】「ファトゥム-00」(〔三隻同盟〕・AP2・HP2・《ブロッカー》)のユニットトークン1つを配備する。\n【セット中】【アタック時】自分の〔三隻同盟〕のユニットトークン1つを選ぶ。それは配備したターンにアタックしてもよい。",
     "variants": [
       {
-        "variantId": "GD01-066-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-066_p1.webp"
-      },
-      {
         "variantId": "GD01-066",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD01-066.webp"
       },
       {
-        "variantId": "GD01-066_p1",
+        "variantId": "GD01-066-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-066_p1.webp"
       }
     ]
@@ -1673,6 +1565,12 @@
     "cardText": "【セット時】自分のトラッシュのLv.5以下のコマンドカード1枚を選ぶ。それを手札に加える。",
     "variants": [
       {
+        "variantId": "GD01-067",
+        "rarity": "LR",
+        "parallel": "",
+        "imageUrl": "/card-images/GD01-067.webp"
+      },
+      {
         "variantId": "GD01-067-LR+",
         "rarity": "LR",
         "parallel": "+",
@@ -1682,24 +1580,6 @@
         "variantId": "GD01-067-LR++",
         "rarity": "LR",
         "parallel": "++",
-        "imageUrl": "/card-images/GD01-067_p2.webp"
-      },
-      {
-        "variantId": "GD01-067",
-        "rarity": "LR",
-        "parallel": "",
-        "imageUrl": "/card-images/GD01-067.webp"
-      },
-      {
-        "variantId": "GD01-067_p1",
-        "rarity": "LR",
-        "parallel": "P1",
-        "imageUrl": "/card-images/GD01-067_p1.webp"
-      },
-      {
-        "variantId": "GD01-067_p2",
-        "rarity": "LR",
-        "parallel": "P2",
         "imageUrl": "/card-images/GD01-067_p2.webp"
       },
       {
@@ -1753,21 +1633,15 @@
     "cardText": "【起動・メイン】【ターン1回】①：《ブロッカー》を持つレストの白の自分のユニット1つを選ぶ。それをアクティブにし、このターン中、それはアタックできない。",
     "variants": [
       {
-        "variantId": "GD01-069-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-069_p1.webp"
-      },
-      {
         "variantId": "GD01-069",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD01-069.webp"
       },
       {
-        "variantId": "GD01-069_p1",
+        "variantId": "GD01-069-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-069_p1.webp"
       }
     ]
@@ -1827,21 +1701,15 @@
     "cardText": "【リンク中】【アタック時】相手のユニット1つを選ぶ。このバトル中、それをAP-2する。",
     "variants": [
       {
-        "variantId": "GD01-071-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-071_p1.webp"
-      },
-      {
         "variantId": "GD01-071",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD01-071.webp"
       },
       {
-        "variantId": "GD01-071_p1",
+        "variantId": "GD01-071-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-071_p1.webp"
       }
     ]
@@ -2185,21 +2053,15 @@
     "cardText": "【バースト】このカードを手札に加える。\nこのユニットが青の間、これは《リペア1》を得る。",
     "variants": [
       {
-        "variantId": "GD01-087-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-087_p1.webp"
-      },
-      {
         "variantId": "GD01-087",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD01-087.webp"
       },
       {
-        "variantId": "GD01-087_p1",
+        "variantId": "GD01-087-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-087_p1.webp"
       },
       {
@@ -2290,21 +2152,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク中】このユニットのAPは相手の効果で減少しない。",
     "variants": [
       {
-        "variantId": "GD01-090-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-090_p1.webp"
-      },
-      {
         "variantId": "GD01-090",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD01-090.webp"
       },
       {
-        "variantId": "GD01-090_p1",
+        "variantId": "GD01-090-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-090_p1.webp"
       },
       {
@@ -2377,21 +2233,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク中】【アタック時】このユニットのLv.以下の相手のユニット1つを選ぶ。それに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD01-093-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-093_p1.webp"
-      },
-      {
         "variantId": "GD01-093",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD01-093.webp"
       },
       {
-        "variantId": "GD01-093_p1",
+        "variantId": "GD01-093-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-093_p1.webp"
       }
     ]
@@ -2446,21 +2296,15 @@
     "cardText": "【バースト】このカードを手札に加える。\nこのユニットが白の間、これは《ブロッカー》を得る。",
     "variants": [
       {
-        "variantId": "GD01-096-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-096_p1.webp"
-      },
-      {
         "variantId": "GD01-096",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD01-096.webp"
       },
       {
-        "variantId": "GD01-096_p1",
+        "variantId": "GD01-096-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-096_p1.webp"
       },
       {
@@ -2552,27 +2396,15 @@
     "cardText": "【メイン】自分は2枚ドローする。",
     "variants": [
       {
-        "variantId": "GD01-100-U+",
-        "rarity": "U",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-100_p1.webp"
-      },
-      {
-        "variantId": "GD01-100_p5",
-        "rarity": "U",
-        "parallel": "P5",
-        "imageUrl": "/card-images/GD01-100_p5.webp"
-      },
-      {
         "variantId": "GD01-100",
         "rarity": "U",
         "parallel": "",
         "imageUrl": "/card-images/GD01-100.webp"
       },
       {
-        "variantId": "GD01-100_p1",
+        "variantId": "GD01-100-U+",
         "rarity": "U",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-100_p1.webp"
       },
       {
@@ -2592,6 +2424,12 @@
         "rarity": "U",
         "parallel": "P4",
         "imageUrl": "/card-images/GD01-100_p4.webp"
+      },
+      {
+        "variantId": "GD01-100_p5",
+        "rarity": "U",
+        "parallel": "P5",
+        "imageUrl": "/card-images/GD01-100_p5.webp"
       }
     ]
   },
@@ -2683,21 +2521,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【メイン】このターン中、自分のユニットすべてをAP+2する。",
     "variants": [
       {
-        "variantId": "GD01-105-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-105_p1.webp"
-      },
-      {
         "variantId": "GD01-105",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD01-105.webp"
       },
       {
-        "variantId": "GD01-105_p1",
+        "variantId": "GD01-105-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-105_p1.webp"
       },
       {
@@ -2745,22 +2577,16 @@
     "cardText": "【バースト】自分はEXリソース1つを置く。\n【メイン】自分はリソース1つをレストで置く。",
     "variants": [
       {
-        "variantId": "GD01-107-U+",
-        "rarity": "U",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-107_p3.webp"
-      },
-      {
-        "variantId": "GD01-107_p3",
-        "rarity": "U",
-        "parallel": "P3",
-        "imageUrl": "/card-images/GD01-107_p3.webp"
-      },
-      {
         "variantId": "GD01-107",
         "rarity": "U",
         "parallel": "",
         "imageUrl": "/card-images/GD01-107.webp"
+      },
+      {
+        "variantId": "GD01-107-U+",
+        "rarity": "U",
+        "parallel": "+",
+        "imageUrl": "/card-images/GD01-107_p3.webp"
       },
       {
         "variantId": "GD01-107_p1",
@@ -2845,6 +2671,12 @@
     "cardText": "【バースト】相手のユニット1つを選ぶ。それに2ダメージを与える。\n【メイン】/【アクション】ダメージを受けている相手のユニット1つを選ぶ。それに3ダメージを与える。",
     "variants": [
       {
+        "variantId": "GD01-111",
+        "rarity": "R",
+        "parallel": "",
+        "imageUrl": "/card-images/GD01-111.webp"
+      },
+      {
         "variantId": "GD01-111-R+",
         "rarity": "R",
         "parallel": "+",
@@ -2855,18 +2687,6 @@
         "rarity": "R",
         "parallel": "P2",
         "imageUrl": "/card-images/GD01-111_p2.webp"
-      },
-      {
-        "variantId": "GD01-111",
-        "rarity": "R",
-        "parallel": "",
-        "imageUrl": "/card-images/GD01-111.webp"
-      },
-      {
-        "variantId": "GD01-111_p1",
-        "rarity": "R",
-        "parallel": "P1",
-        "imageUrl": "/card-images/GD01-111_p1.webp"
       },
       {
         "variantId": "GD01-111_p3",
@@ -2983,21 +2803,15 @@
     "cardText": "【バースト】このカードの【メイン】を発動する。\n【メイン】/【アクション】HP5以下の相手のユニット1つを選ぶ。それを持ち主の手札に戻す。",
     "variants": [
       {
-        "variantId": "GD01-117-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-117_p1.webp"
-      },
-      {
         "variantId": "GD01-117",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD01-117.webp"
       },
       {
-        "variantId": "GD01-117_p1",
+        "variantId": "GD01-117-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-117_p1.webp"
       },
       {
@@ -3020,27 +2834,15 @@
     "cardText": "【メイン】自分は2枚ドローする。その後、自分の手札1枚を捨てる。",
     "variants": [
       {
-        "variantId": "GD01-118-U+",
-        "rarity": "U",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD01-118_p1.webp"
-      },
-      {
-        "variantId": "GD01-118_p5",
-        "rarity": "U",
-        "parallel": "P5",
-        "imageUrl": "/card-images/GD01-118_p5.webp"
-      },
-      {
         "variantId": "GD01-118",
         "rarity": "U",
         "parallel": "",
         "imageUrl": "/card-images/GD01-118.webp"
       },
       {
-        "variantId": "GD01-118_p1",
+        "variantId": "GD01-118-U+",
         "rarity": "U",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD01-118_p1.webp"
       },
       {
@@ -3056,16 +2858,22 @@
         "imageUrl": "/card-images/GD01-118_p3.webp"
       },
       {
-        "variantId": "GD01-118_p4",
-        "rarity": "P",
-        "parallel": "P4",
-        "imageUrl": "/card-images/GD01-118_p4.webp"
+        "variantId": "GD01-118_p5",
+        "rarity": "U",
+        "parallel": "P5",
+        "imageUrl": "/card-images/GD01-118_p5.webp"
       },
       {
         "variantId": "GD01-118_p6",
         "rarity": "U",
         "parallel": "P6",
         "imageUrl": "/card-images/GD01-118_p6.webp"
+      },
+      {
+        "variantId": "GD01-118_p4",
+        "rarity": "P",
+        "parallel": "P4",
+        "imageUrl": "/card-images/GD01-118_p4.webp"
       }
     ]
   },
@@ -3546,21 +3354,15 @@
     "cardText": "《突破3》(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)\n【セット中・〔強化人間〕のパイロット】〔ティターンズ〕の自分のユニットがダメージで相手のシールドエリアのカードを破壊したとき、このユニットを2回復する。",
     "variants": [
       {
-        "variantId": "GD02-001-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-001_p1.webp"
-      },
-      {
         "variantId": "GD02-001",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD02-001.webp"
       },
       {
-        "variantId": "GD02-001_p1",
+        "variantId": "GD02-001-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-001_p1.webp"
       }
     ]
@@ -3577,21 +3379,15 @@
     "cardText": "【リンク中】【ターン1回】自分のターン中、自分のユニットがバトルダメージで相手のユニットを破壊したとき、このユニットをアクティブにする。",
     "variants": [
       {
-        "variantId": "GD02-002-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-002_p1.webp"
-      },
-      {
         "variantId": "GD02-002",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD02-002.webp"
       },
       {
-        "variantId": "GD02-002_p1",
+        "variantId": "GD02-002-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-002_p1.webp"
       }
     ]
@@ -3608,21 +3404,15 @@
     "cardText": "【セット中・Lv.3以下のパイロット】【破壊時】自分の手札のユニットカード1枚を捨ててもよい。そうしたなら、このユニットにセットされていたカードを手札に戻す。",
     "variants": [
       {
-        "variantId": "GD02-003-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-003_p1.webp"
-      },
-      {
         "variantId": "GD02-003",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-003.webp"
       },
       {
-        "variantId": "GD02-003_p1",
+        "variantId": "GD02-003-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-003_p1.webp"
       },
       {
@@ -3670,21 +3460,15 @@
     "cardText": "【リンク中】【アタック時】HP2以下の相手のユニット1つを選ぶ。それをレストにする。",
     "variants": [
       {
-        "variantId": "GD02-005-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-005_p1.webp"
-      },
-      {
         "variantId": "GD02-005",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-005.webp"
       },
       {
-        "variantId": "GD02-005_p1",
+        "variantId": "GD02-005-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-005_p1.webp"
       }
     ]
@@ -3979,21 +3763,15 @@
     "cardText": "【配備時】自分のデッキを上から5枚見て、その中の緑の〔ジオン〕のパイロットカード1枚を公開して手札に加えてもよい。残ったカードは無作為に下に戻す。\n【リンク中】このユニットをAP+2する。",
     "variants": [
       {
-        "variantId": "GD02-020-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-020_p1.webp"
-      },
-      {
         "variantId": "GD02-020",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD02-020.webp"
       },
       {
-        "variantId": "GD02-020_p1",
+        "variantId": "GD02-020-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-020_p1.webp"
       }
     ]
@@ -4010,21 +3788,15 @@
     "cardText": "【配備時】自分の手札の緑の〔地球連邦〕のユニットカード1枚を捨ててもよい。そうしたなら、自分はEXリソース1つを置く。その後、自分がLv.7以上なら、自分は1枚ドローする。",
     "variants": [
       {
-        "variantId": "GD02-021-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-021_p1.webp"
-      },
-      {
         "variantId": "GD02-021",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD02-021.webp"
       },
       {
-        "variantId": "GD02-021_p1",
+        "variantId": "GD02-021-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-021_p1.webp"
       }
     ]
@@ -4060,21 +3832,15 @@
     "cardText": "【リンク中】自分がLv.7以上の間、このユニットは《先制攻撃》を得る。\n(アタック中のこのユニットは、相手より先にダメージを与える)",
     "variants": [
       {
-        "variantId": "GD02-023-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-023_p1.webp"
-      },
-      {
         "variantId": "GD02-023",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-023.webp"
       },
       {
-        "variantId": "GD02-023_p1",
+        "variantId": "GD02-023-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-023_p1.webp"
       }
     ]
@@ -4091,21 +3857,15 @@
     "cardText": "【リンク中】このユニットは《高機動》を得る。\n(このユニットはブロックされない)",
     "variants": [
       {
-        "variantId": "GD02-024-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-024_p1.webp"
-      },
-      {
         "variantId": "GD02-024",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-024.webp"
       },
       {
-        "variantId": "GD02-024_p1",
+        "variantId": "GD02-024-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-024_p1.webp"
       }
     ]
@@ -4349,21 +4109,15 @@
     "cardText": "【リンク時】このターン中、このユニットは《制圧》を得る。\n(アタックでシールドに与えるダメージは、先頭から2つに同時に与えられる)\n【セット中・〔ネオ・ジオン〕のパイロット】【アタック時】ダメージを受けている相手のユニット1つを選ぶ。それに2ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD02-036-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-036_p1.webp"
-      },
-      {
         "variantId": "GD02-036",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD02-036.webp"
       },
       {
-        "variantId": "GD02-036_p1",
+        "variantId": "GD02-036-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-036_p1.webp"
       },
       {
@@ -4386,21 +4140,15 @@
     "cardText": "《突破1》(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)\n【配備時】相手のシールドが3つ以下なら、AP5以下の相手のユニット1つを選ぶ。それに2ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD02-037-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-037_p1.webp"
-      },
-      {
         "variantId": "GD02-037",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD02-037.webp"
       },
       {
-        "variantId": "GD02-037_p1",
+        "variantId": "GD02-037-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-037_p1.webp"
       }
     ]
@@ -4417,6 +4165,12 @@
     "cardText": "【配備時】自分のデッキを上から3枚見て、その中のLv.4以下の〔クラン〕のユニットカード1枚を配備してもよい。残ったカードは無作為に下に戻す。",
     "variants": [
       {
+        "variantId": "GD02-038",
+        "rarity": "LR",
+        "parallel": "",
+        "imageUrl": "/card-images/GD02-038.webp"
+      },
+      {
         "variantId": "GD02-038-LR+",
         "rarity": "LR",
         "parallel": "+",
@@ -4426,24 +4180,6 @@
         "variantId": "GD02-038-LR++",
         "rarity": "LR",
         "parallel": "++",
-        "imageUrl": "/card-images/GD02-038_p2.webp"
-      },
-      {
-        "variantId": "GD02-038",
-        "rarity": "LR",
-        "parallel": "",
-        "imageUrl": "/card-images/GD02-038.webp"
-      },
-      {
-        "variantId": "GD02-038_p1",
-        "rarity": "LR",
-        "parallel": "P1",
-        "imageUrl": "/card-images/GD02-038_p1.webp"
-      },
-      {
-        "variantId": "GD02-038_p2",
-        "rarity": "LR",
-        "parallel": "P2",
         "imageUrl": "/card-images/GD02-038_p2.webp"
       }
     ]
@@ -4491,21 +4227,15 @@
     "cardText": "【起動・メイン】《援護2》(レストにすることで、このターン中、他の味方のユニット1つをAP+(指定の数)する)\n【配備時】このユニット以外の、〔新連邦〕の自分のユニット1つを選ぶ。このターン中、それはHP2以下の相手のユニットからバトルダメージを受けない。",
     "variants": [
       {
-        "variantId": "GD02-040-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-040_p1.webp"
-      },
-      {
         "variantId": "GD02-040",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-040.webp"
       },
       {
-        "variantId": "GD02-040_p1",
+        "variantId": "GD02-040-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-040_p1.webp"
       }
     ]
@@ -4522,21 +4252,15 @@
     "cardText": "【配備時】Lv.5以上の相手のユニット1つを選ぶ。それに2ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD02-041-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-041_p1.webp"
-      },
-      {
         "variantId": "GD02-041",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-041.webp"
       },
       {
-        "variantId": "GD02-041_p1",
+        "variantId": "GD02-041-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-041_p1.webp"
       }
     ]
@@ -4774,21 +4498,15 @@
     "cardText": "《制圧》(アタックでシールドに与えるダメージは、先頭から2つに同時に与えられる)\n【リンク中】自分のターン中、自分のトラッシュにカードが7枚以上ある間、このユニット以外の、〔バルチャー〕の自分のユニットすべてをAP+2する。",
     "variants": [
       {
-        "variantId": "GD02-053-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-053_p1.webp"
-      },
-      {
         "variantId": "GD02-053",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD02-053.webp"
       },
       {
-        "variantId": "GD02-053_p1",
+        "variantId": "GD02-053-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-053_p1.webp"
       }
     ]
@@ -4805,6 +4523,12 @@
     "cardText": "【アタック時】このユニットがダメージを受けているなら、自分は1枚ドローする。",
     "variants": [
       {
+        "variantId": "GD02-054",
+        "rarity": "LR",
+        "parallel": "",
+        "imageUrl": "/card-images/GD02-054.webp"
+      },
+      {
         "variantId": "GD02-054-LR+",
         "rarity": "LR",
         "parallel": "+",
@@ -4814,24 +4538,6 @@
         "variantId": "GD02-054-LR++",
         "rarity": "LR",
         "parallel": "++",
-        "imageUrl": "/card-images/GD02-054_p2.webp"
-      },
-      {
-        "variantId": "GD02-054",
-        "rarity": "LR",
-        "parallel": "",
-        "imageUrl": "/card-images/GD02-054.webp"
-      },
-      {
-        "variantId": "GD02-054_p1",
-        "rarity": "LR",
-        "parallel": "P1",
-        "imageUrl": "/card-images/GD02-054_p1.webp"
-      },
-      {
-        "variantId": "GD02-054_p2",
-        "rarity": "LR",
-        "parallel": "P2",
         "imageUrl": "/card-images/GD02-054_p2.webp"
       }
     ]
@@ -4848,21 +4554,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)\n【配備時】自分のユニット1つと、相手のユニット1つを選ぶ。それらに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD02-055-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-055_p1.webp"
-      },
-      {
         "variantId": "GD02-055",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD02-055.webp"
       },
       {
-        "variantId": "GD02-055_p1",
+        "variantId": "GD02-055-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-055_p1.webp"
       }
     ]
@@ -4954,21 +4654,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)",
     "variants": [
       {
-        "variantId": "GD02-059-U+",
-        "rarity": "U",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-059_p1.webp"
-      },
-      {
         "variantId": "GD02-059",
         "rarity": "U",
         "parallel": "",
         "imageUrl": "/card-images/GD02-059.webp"
       },
       {
-        "variantId": "GD02-059_p1",
+        "variantId": "GD02-059-U+",
         "rarity": "U",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-059_p1.webp"
       }
     ]
@@ -4985,21 +4679,15 @@
     "cardText": "【配備時】自分のトラッシュにカードが7枚以上あるなら、Lv.4以下の相手のユニット1つを選ぶ。それをレストにする。",
     "variants": [
       {
-        "variantId": "GD02-060-U+",
-        "rarity": "U",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-060_p1.webp"
-      },
-      {
         "variantId": "GD02-060",
         "rarity": "U",
         "parallel": "",
         "imageUrl": "/card-images/GD02-060.webp"
       },
       {
-        "variantId": "GD02-060_p1",
+        "variantId": "GD02-060-U+",
         "rarity": "U",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-060_p1.webp"
       }
     ]
@@ -5168,21 +4856,15 @@
     "cardText": "【リンク中】【起動・メイン】【ターン1回】アクティブの味方のベース1つを選ぶ。それをレストにする。そうしたなら、このユニットをアクティブにし、このターン中、これは相手プレイヤーをアタック先に選べない。",
     "variants": [
       {
-        "variantId": "GD02-069-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-069_p1.webp"
-      },
-      {
         "variantId": "GD02-069",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD02-069.webp"
       },
       {
-        "variantId": "GD02-069_p1",
+        "variantId": "GD02-069-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-069_p1.webp"
       },
       {
@@ -5205,21 +4887,15 @@
     "cardText": "【配備時】自分のトラッシュに〔ギャラルホルン〕のカードが4枚以上あるなら、自分は2枚ドローする。そうしたなら、自分の手札2枚を捨てる。",
     "variants": [
       {
-        "variantId": "GD02-070-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-070_p1.webp"
-      },
-      {
         "variantId": "GD02-070",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD02-070.webp"
       },
       {
-        "variantId": "GD02-070_p1",
+        "variantId": "GD02-070-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-070_p1.webp"
       }
     ]
@@ -5255,21 +4931,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)\n白の味方のベースがある間、このユニットは《リペア1》を得る。",
     "variants": [
       {
-        "variantId": "GD02-072-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-072_p1.webp"
-      },
-      {
         "variantId": "GD02-072",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-072.webp"
       },
       {
-        "variantId": "GD02-072_p1",
+        "variantId": "GD02-072-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-072_p1.webp"
       }
     ]
@@ -5286,21 +4956,15 @@
     "cardText": "相手のターン中、このユニットとバトルしている相手のユニットは《先制攻撃》を得る。\n(アタック中のこのユニットは、相手より先にダメージを与える)",
     "variants": [
       {
-        "variantId": "GD02-073-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-073_p1.webp"
-      },
-      {
         "variantId": "GD02-073",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-073.webp"
       },
       {
-        "variantId": "GD02-073_p1",
+        "variantId": "GD02-073-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-073_p1.webp"
       }
     ]
@@ -5532,21 +5196,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク中】【ターン1回】自分のターン中、このユニットが回復したとき、自分の手札が4枚以下なら、自分は1枚ドローする。",
     "variants": [
       {
-        "variantId": "GD02-085-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-085_p1.webp"
-      },
-      {
         "variantId": "GD02-085",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-085.webp"
       },
       {
-        "variantId": "GD02-085_p1",
+        "variantId": "GD02-085-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-085_p1.webp"
       }
     ]
@@ -5601,21 +5259,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク時】自分のデッキを上から3枚見て、その中の、緑の〔地球連邦〕のユニットカード1枚/カード名に「AGEデバイス」を含むカード1枚を公開して手札に加えてもよい。残ったカードは無作為に下に戻す。",
     "variants": [
       {
-        "variantId": "GD02-088-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-088_p1.webp"
-      },
-      {
         "variantId": "GD02-088",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-088.webp"
       },
       {
-        "variantId": "GD02-088_p1",
+        "variantId": "GD02-088-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-088_p1.webp"
       },
       {
@@ -5688,21 +5340,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【セット時】このユニットが赤なら、これのLv.以下の相手のユニット1つを選ぶ。それに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD02-091-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-091_p1.webp"
-      },
-      {
         "variantId": "GD02-091",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-091.webp"
       },
       {
-        "variantId": "GD02-091_p1",
+        "variantId": "GD02-091-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-091_p1.webp"
       },
       {
@@ -5769,21 +5415,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【セット時】自分の手札1枚を捨ててもよい。そうしたなら、自分のデッキを上から3枚見て、その中の〔バルチャー〕のユニットカード1枚を公開して手札に加えてもよい。残ったカードは無作為に下に戻す。",
     "variants": [
       {
-        "variantId": "GD02-094-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-094_p1.webp"
-      },
-      {
         "variantId": "GD02-094",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-094.webp"
       },
       {
-        "variantId": "GD02-094_p1",
+        "variantId": "GD02-094-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-094_p1.webp"
       }
     ]
@@ -5850,21 +5490,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n白の味方のベースがある間、このユニットをAP+2する。",
     "variants": [
       {
-        "variantId": "GD02-097-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-097_p1.webp"
-      },
-      {
         "variantId": "GD02-097",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-097.webp"
       },
       {
-        "variantId": "GD02-097_p1",
+        "variantId": "GD02-097-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-097_p1.webp"
       },
       {
@@ -5937,21 +5571,15 @@
     "cardText": "【バースト】自分は1枚ドローする。\n【メイン】ダメージを受けている味方のユニット1つを選ぶ。それを2回復する。その後、自分は1枚ドローする。",
     "variants": [
       {
-        "variantId": "GD02-100-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-100_p1.webp"
-      },
-      {
         "variantId": "GD02-100",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-100.webp"
       },
       {
-        "variantId": "GD02-100_p1",
+        "variantId": "GD02-100-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-100_p1.webp"
       }
     ]
@@ -6006,21 +5634,15 @@
     "cardText": "【バースト】自分のトラッシュの〔アスノ家〕のパイロットカード1枚を選ぶ。それを手札に加える。\n【メイン】〔AGEシステム〕の自分のユニットがいるなら、自分はEXリソース1つを置く。",
     "variants": [
       {
-        "variantId": "GD02-103-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-103_p1.webp"
-      },
-      {
         "variantId": "GD02-103",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-103.webp"
       },
       {
-        "variantId": "GD02-103_p1",
+        "variantId": "GD02-103-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-103_p1.webp"
       }
     ]
@@ -6118,21 +5740,15 @@
     "cardText": "【バースト】相手のユニット1つを選ぶ。それに1ダメージを与える。\n【メイン】リンクユニット以外の、相手のユニットすべてに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD02-107-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-107_p1.webp"
-      },
-      {
         "variantId": "GD02-107",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-107.webp"
       },
       {
-        "variantId": "GD02-107_p1",
+        "variantId": "GD02-107-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-107_p1.webp"
       },
       {
@@ -6193,21 +5809,15 @@
     "cardText": "【メイン】自分のトラッシュのLv.5以下のユニットカード1枚を選ぶ。それをコストを支払って配備する。",
     "variants": [
       {
-        "variantId": "GD02-110-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-110_p1.webp"
-      },
-      {
         "variantId": "GD02-110",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-110.webp"
       },
       {
-        "variantId": "GD02-110_p1",
+        "variantId": "GD02-110-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-110_p1.webp"
       },
       {
@@ -6255,21 +5865,15 @@
     "cardText": "【バースト】自分は1枚ドローする。\n【メイン】自分のトラッシュの紫のパイロットカード1枚を選ぶ。それを手札に加える。",
     "variants": [
       {
-        "variantId": "GD02-112-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-112_p1.webp"
-      },
-      {
         "variantId": "GD02-112",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-112.webp"
       },
       {
-        "variantId": "GD02-112_p1",
+        "variantId": "GD02-112-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-112_p1.webp"
       },
       {
@@ -6608,21 +6212,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。",
     "variants": [
       {
-        "variantId": "GD02-129-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD02-129_p1.webp"
-      },
-      {
         "variantId": "GD02-129",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD02-129.webp"
       },
       {
-        "variantId": "GD02-129_p1",
+        "variantId": "GD02-129-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD02-129_p1.webp"
       }
     ]
@@ -6933,21 +6531,15 @@
     "cardText": "《リペア2》(自分のターン終了時、このユニットを指定の数回復する)\n【セット時】レストの相手のユニット1つを選ぶ。それに1ダメージを与える。この効果で相手のユニットを破壊したとき、自分は1枚ドローする。",
     "variants": [
       {
-        "variantId": "GD03-001-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-001_p1.webp"
-      },
-      {
         "variantId": "GD03-001",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD03-001.webp"
       },
       {
-        "variantId": "GD03-001_p1",
+        "variantId": "GD03-001-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-001_p1.webp"
       }
     ]
@@ -6964,21 +6556,15 @@
     "cardText": "《リペア3》(自分のターン終了時、このユニットを指定の数回復する)\n【セット中】このユニット以外の、《リペア》を持つ自分のユニットがアタックしたとき、そのユニットのLv.以下の相手のユニット1つを選ぶ。それをレストにする。",
     "variants": [
       {
-        "variantId": "GD03-002-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-002_p1.webp"
-      },
-      {
         "variantId": "GD03-002",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD03-002.webp"
       },
       {
-        "variantId": "GD03-002_p1",
+        "variantId": "GD03-002-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-002_p1.webp"
       }
     ]
@@ -6995,21 +6581,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)\n《リペア1》(自分のターン終了時、このユニットを指定の数回復する)",
     "variants": [
       {
-        "variantId": "GD03-003-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-003_p1.webp"
-      },
-      {
         "variantId": "GD03-003",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-003.webp"
       },
       {
-        "variantId": "GD03-003_p1",
+        "variantId": "GD03-003-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-003_p1.webp"
       }
     ]
@@ -7140,21 +6720,15 @@
     "cardText": "《リペア3》(自分のターン終了時、このユニットを指定の数回復する)",
     "variants": [
       {
-        "variantId": "GD03-010-U+",
-        "rarity": "U",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-010_p1.webp"
-      },
-      {
         "variantId": "GD03-010",
         "rarity": "U",
         "parallel": "",
         "imageUrl": "/card-images/GD03-010.webp"
       },
       {
-        "variantId": "GD03-010_p1",
+        "variantId": "GD03-010-U+",
         "rarity": "U",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-010_p1.webp"
       },
       {
@@ -7297,6 +6871,12 @@
     "cardText": "【バースト】自分のトラッシュの〔サイクロプス隊〕のパイロットカード1枚を選ぶ。それを手札に加える。\n【セット時・〔サイクロプス隊〕のパイロット】〔サイクロプス隊〕の自分のユニットすべては、このターン中、アクティブのAP5以下の相手のユニットをアタック先に選んでもよい。",
     "variants": [
       {
+        "variantId": "GD03-017",
+        "rarity": "LR",
+        "parallel": "",
+        "imageUrl": "/card-images/GD03-017.webp"
+      },
+      {
         "variantId": "GD03-017-LR+",
         "rarity": "LR",
         "parallel": "+",
@@ -7306,24 +6886,6 @@
         "variantId": "GD03-017-LR++",
         "rarity": "LR",
         "parallel": "++",
-        "imageUrl": "/card-images/GD03-017_p2.webp"
-      },
-      {
-        "variantId": "GD03-017",
-        "rarity": "LR",
-        "parallel": "",
-        "imageUrl": "/card-images/GD03-017.webp"
-      },
-      {
-        "variantId": "GD03-017_p1",
-        "rarity": "LR",
-        "parallel": "P1",
-        "imageUrl": "/card-images/GD03-017_p1.webp"
-      },
-      {
-        "variantId": "GD03-017_p2",
-        "rarity": "LR",
-        "parallel": "P2",
         "imageUrl": "/card-images/GD03-017_p2.webp"
       }
     ]
@@ -7340,21 +6902,15 @@
     "cardText": "《突破5》(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)\n【アタック時】《ブロッカー》を持つ相手のユニット1つを選ぶ。それに5ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD03-018-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-018_p1.webp"
-      },
-      {
         "variantId": "GD03-018",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD03-018.webp"
       },
       {
-        "variantId": "GD03-018_p1",
+        "variantId": "GD03-018-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-018_p1.webp"
       }
     ]
@@ -7371,21 +6927,15 @@
     "cardText": "【セット中】相手のユニットはアタックするとき、可能ならレストのこのユニットをアタック先に選ぶ。\n【リンク時】自分はEXリソース1つを置く。",
     "variants": [
       {
-        "variantId": "GD03-019-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-019_p1.webp"
-      },
-      {
         "variantId": "GD03-019",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD03-019.webp"
       },
       {
-        "variantId": "GD03-019_p1",
+        "variantId": "GD03-019-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-019_p1.webp"
       }
     ]
@@ -7402,21 +6952,15 @@
     "cardText": "【セット時】自分のトラッシュに〔サイクロプス隊〕のカードが4枚以上あるなら、「アドバルーン」(〔民間〕・AP0・HP1・このユニットは、アクティブにできず、パイロットをセットできない)のユニットトークン2つをレストで配備する。\nカード名に「アドバルーン」を含む自分のユニットがいる間、このユニットは相手からバトルダメージを受けない。",
     "variants": [
       {
-        "variantId": "GD03-020-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-020_p1.webp"
-      },
-      {
         "variantId": "GD03-020",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-020.webp"
       },
       {
-        "variantId": "GD03-020_p1",
+        "variantId": "GD03-020-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-020_p1.webp"
       },
       {
@@ -7470,21 +7014,15 @@
     "cardText": "【リンク中】自分のターン中、このユニットがバトルダメージで相手のユニットを破壊したとき、Lv.3以下の相手のユニットすべてに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD03-022-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-022_p1.webp"
-      },
-      {
         "variantId": "GD03-022",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-022.webp"
       },
       {
-        "variantId": "GD03-022_p1",
+        "variantId": "GD03-022-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-022_p1.webp"
       }
     ]
@@ -7558,21 +7096,15 @@
     "cardText": "《突破3》(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)",
     "variants": [
       {
-        "variantId": "GD03-026-U+",
-        "rarity": "U",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-026_p1.webp"
-      },
-      {
         "variantId": "GD03-026",
         "rarity": "U",
         "parallel": "",
         "imageUrl": "/card-images/GD03-026.webp"
       },
       {
-        "variantId": "GD03-026_p1",
+        "variantId": "GD03-026-U+",
         "rarity": "U",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-026_p1.webp"
       }
     ]
@@ -7709,21 +7241,15 @@
     "cardText": "【セット中・〔ザフト〕のパイロット】自分のターン中、〔ザフト〕の自分のユニットすべてをAP+2する。\n【アタック時】相手のユニット1つを選ぶ。それに、このユニットのAP4につき1ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD03-033-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-033_p1.webp"
-      },
-      {
         "variantId": "GD03-033",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD03-033.webp"
       },
       {
-        "variantId": "GD03-033_p1",
+        "variantId": "GD03-033-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-033_p1.webp"
       }
     ]
@@ -7740,21 +7266,15 @@
     "cardText": "《制圧》(アタックでシールドに与えるダメージは、先頭から2つに同時に与えられる)\n【配備時】相手のユニット1つを選ぶ。それに3ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD03-034-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-034_p1.webp"
-      },
-      {
         "variantId": "GD03-034",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD03-034.webp"
       },
       {
-        "variantId": "GD03-034_p1",
+        "variantId": "GD03-034-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-034_p1.webp"
       },
       {
@@ -7777,6 +7297,12 @@
     "cardText": "【起動・メイン】【ターン1回】①,自分のトラッシュのパイロットカード1枚をゲームから除外する：相手のユニットすべてに1ダメージを与える。\n【リンク時】このターン中、このユニットはアクティブの、これのAP以下の相手のユニットをアタック先に選んでもよい。",
     "variants": [
       {
+        "variantId": "GD03-035",
+        "rarity": "LR",
+        "parallel": "",
+        "imageUrl": "/card-images/GD03-035.webp"
+      },
+      {
         "variantId": "GD03-035-LR+",
         "rarity": "LR",
         "parallel": "+",
@@ -7786,24 +7312,6 @@
         "variantId": "GD03-035-LR++",
         "rarity": "LR",
         "parallel": "++",
-        "imageUrl": "/card-images/GD03-035_p2.webp"
-      },
-      {
-        "variantId": "GD03-035",
-        "rarity": "LR",
-        "parallel": "",
-        "imageUrl": "/card-images/GD03-035.webp"
-      },
-      {
-        "variantId": "GD03-035_p1",
-        "rarity": "LR",
-        "parallel": "P1",
-        "imageUrl": "/card-images/GD03-035_p1.webp"
-      },
-      {
-        "variantId": "GD03-035_p2",
-        "rarity": "LR",
-        "parallel": "P2",
         "imageUrl": "/card-images/GD03-035_p2.webp"
       }
     ]
@@ -7820,21 +7328,15 @@
     "cardText": "【リンク時】相手のユニットすべてに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD03-036-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-036_p1.webp"
-      },
-      {
         "variantId": "GD03-036",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-036.webp"
       },
       {
-        "variantId": "GD03-036_p1",
+        "variantId": "GD03-036-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-036_p1.webp"
       }
     ]
@@ -7851,21 +7353,15 @@
     "cardText": "【リンク中】自分のターン中、このユニットが【破壊時】を持つ相手のユニットとバトルしている間、これは《先制攻撃》を得る。\n(アタック中のこのユニットは、相手より先にダメージを与える)",
     "variants": [
       {
-        "variantId": "GD03-037-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-037_p1.webp"
-      },
-      {
         "variantId": "GD03-037",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-037.webp"
       },
       {
-        "variantId": "GD03-037_p1",
+        "variantId": "GD03-037-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-037_p1.webp"
       }
     ]
@@ -7901,21 +7397,15 @@
     "cardText": "【配備時】このユニット以外の、アクティブの〔クラン〕の味方のユニット1つを選ぶ。それをレストにする。そうしたなら、AP2以下の相手のユニット1つを選ぶ。それに2ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD03-039-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-039_p1.webp"
-      },
-      {
         "variantId": "GD03-039",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-039.webp"
       },
       {
-        "variantId": "GD03-039_p1",
+        "variantId": "GD03-039-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-039_p1.webp"
       }
     ]
@@ -8109,21 +7599,15 @@
     "cardText": "《制圧》(アタックでシールドに与えるダメージは、先頭から2つに同時に与えられる)\nこのユニットがバトルダメージで相手のシールドエリアのカードを破壊したとき、自分のトラッシュに〔CB〕のカードが10枚以上あるなら、最もHPが低い相手のユニット1つを選ぶ。それを破壊する。",
     "variants": [
       {
-        "variantId": "GD03-049-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-049_p1.webp"
-      },
-      {
         "variantId": "GD03-049",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD03-049.webp"
       },
       {
-        "variantId": "GD03-049_p1",
+        "variantId": "GD03-049-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-049_p1.webp"
       }
     ]
@@ -8140,21 +7624,15 @@
     "cardText": "【起動・メイン】自分のトラッシュの、〔鉄華団〕/〔テイワズ〕のユニットカード3枚を選ぶ。それらをゲームから除外する。そうしたなら、相手のユニット1つを選ぶ。それに2ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD03-050-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-050_p1.webp"
-      },
-      {
         "variantId": "GD03-050",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD03-050.webp"
       },
       {
-        "variantId": "GD03-050_p1",
+        "variantId": "GD03-050-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-050_p1.webp"
       },
       {
@@ -8196,21 +7674,15 @@
     "cardText": "【起動・メイン】《援護2》(レストにすることで、このターン中、他の味方のユニット1つをAP+(指定の数)する)\nこのユニットがLv.5以下の相手のユニットにバトルダメージを与えたとき、〔CB〕の自分のパイロットがいるなら、その相手のユニットを破壊する。",
     "variants": [
       {
-        "variantId": "GD03-052-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-052_p1.webp"
-      },
-      {
         "variantId": "GD03-052",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-052.webp"
       },
       {
-        "variantId": "GD03-052_p1",
+        "variantId": "GD03-052-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-052_p1.webp"
       }
     ]
@@ -8227,21 +7699,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)\n【セット中】【ターン1回】自分のターン中、〔鉄華団〕/〔テイワズ〕の自分のユニットが効果ダメージを受けたとき、Lv.4以下の相手のユニット1つを選ぶ。それをレストにする。",
     "variants": [
       {
-        "variantId": "GD03-053-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-053_p1.webp"
-      },
-      {
         "variantId": "GD03-053",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-053.webp"
       },
       {
-        "variantId": "GD03-053_p1",
+        "variantId": "GD03-053-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-053_p1.webp"
       }
     ]
@@ -8302,21 +7768,15 @@
     "cardText": "【配備時】自分のユニット1つと、相手のユニット1つを選ぶ。それらに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD03-056-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-056_p1.webp"
-      },
-      {
         "variantId": "GD03-056",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-056.webp"
       },
       {
-        "variantId": "GD03-056_p1",
+        "variantId": "GD03-056-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-056_p1.webp"
       }
     ]
@@ -8567,21 +8027,15 @@
     "cardText": "《高機動》(このユニットはブロックされない)\n【リンク中】このユニットにパイロットがセットされたターンの終了時に、これをアクティブにする。",
     "variants": [
       {
-        "variantId": "GD03-069-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-069_p1.webp"
-      },
-      {
         "variantId": "GD03-069",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD03-069.webp"
       },
       {
-        "variantId": "GD03-069_p1",
+        "variantId": "GD03-069-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-069_p1.webp"
       }
     ]
@@ -8598,21 +8052,15 @@
     "cardText": "このユニットがレストの間、味方のシールドは相手のユニットからバトルダメージを受けない。",
     "variants": [
       {
-        "variantId": "GD03-070-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-070_p1.webp"
-      },
-      {
         "variantId": "GD03-070",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD03-070.webp"
       },
       {
-        "variantId": "GD03-070_p1",
+        "variantId": "GD03-070-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-070_p1.webp"
       }
     ]
@@ -8629,21 +8077,15 @@
     "cardText": "【配備時】相手のユニット1つを選ぶ。自分のトラッシュの〔エゥーゴ〕のユニットカード1枚につき、このターン中、それをAP-1する。",
     "variants": [
       {
-        "variantId": "GD03-071-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-071_p1.webp"
-      },
-      {
         "variantId": "GD03-071",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-071.webp"
       },
       {
-        "variantId": "GD03-071_p1",
+        "variantId": "GD03-071-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-071_p1.webp"
       }
     ]
@@ -8691,21 +8133,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)\n【リンク中】【起動・アクション】【ターン1回】自分のトラッシュに〔ギャラルホルン〕のカードが6枚以上あるなら、このユニットとバトルしている相手のユニット1つを選ぶ。このバトル中、それをAP-3する。",
     "variants": [
       {
-        "variantId": "GD03-073-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-073_p1.webp"
-      },
-      {
         "variantId": "GD03-073",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-073.webp"
       },
       {
-        "variantId": "GD03-073_p1",
+        "variantId": "GD03-073-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-073_p1.webp"
       }
     ]
@@ -8930,21 +8366,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク時】このユニット以外の、自分のユニット1つを選ぶ。このターン中、それは《リペア2》を得る。その後、それが〔ジュピトリス〕なら、自分は1枚ドローする。",
     "variants": [
       {
-        "variantId": "GD03-084-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-084_p1.webp"
-      },
-      {
         "variantId": "GD03-084",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-084.webp"
       },
       {
-        "variantId": "GD03-084_p1",
+        "variantId": "GD03-084-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-084_p1.webp"
       }
     ]
@@ -9030,21 +8460,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク中】このユニットが〔AGEシステム〕なら、これはAP+1され、《突破1》を得る。",
     "variants": [
       {
-        "variantId": "GD03-088-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-088_p1.webp"
-      },
-      {
         "variantId": "GD03-088",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-088.webp"
       },
       {
-        "variantId": "GD03-088_p1",
+        "variantId": "GD03-088-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-088_p1.webp"
       }
     ]
@@ -9105,21 +8529,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク時】自分のトラッシュの〔ザフト〕のベースカード1枚を選ぶ。それを手札に加える。",
     "variants": [
       {
-        "variantId": "GD03-091-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-091_p1.webp"
-      },
-      {
         "variantId": "GD03-091",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-091.webp"
       },
       {
-        "variantId": "GD03-091_p1",
+        "variantId": "GD03-091-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-091_p1.webp"
       }
     ]
@@ -9186,21 +8604,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【セット時】自分のデッキを上から2枚、自分のトラッシュに置く。この効果で〔ヴェイガン〕のカードを置いたなら、相手のユニット1つを選ぶ。このターン中、それをAP-2する。",
     "variants": [
       {
-        "variantId": "GD03-094-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-094_p1.webp"
-      },
-      {
         "variantId": "GD03-094",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-094.webp"
       },
       {
-        "variantId": "GD03-094_p1",
+        "variantId": "GD03-094-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-094_p1.webp"
       }
     ]
@@ -9274,21 +8686,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク中】レストのこのユニットが効果でアクティブになったとき、HP3以下の相手のユニット1つを選ぶ。それを持ち主の手札に戻す。",
     "variants": [
       {
-        "variantId": "GD03-098-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-098_p1.webp"
-      },
-      {
         "variantId": "GD03-098",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-098.webp"
       },
       {
-        "variantId": "GD03-098_p1",
+        "variantId": "GD03-098-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-098_p1.webp"
       }
     ]
@@ -9349,21 +8755,15 @@
     "cardText": "【メイン】自分は1枚ドローする。その後、自分のトラッシュに、カード名に「旺盛な好奇心」を含むカードが2枚以上あるなら、HP4以下の相手のユニット1つを選ぶ。それをレストにする。",
     "variants": [
       {
-        "variantId": "GD03-101-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-101_p1.webp"
-      },
-      {
         "variantId": "GD03-101",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-101.webp"
       },
       {
-        "variantId": "GD03-101_p1",
+        "variantId": "GD03-101-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-101_p1.webp"
       }
     ]
@@ -9437,21 +8837,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【メイン】味方のユニット1つを選ぶ。このターン中、それは、パイロットがセットされていないアクティブの相手のユニットをアタック先に選んでもよい。",
     "variants": [
       {
-        "variantId": "GD03-105-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-105_p1.webp"
-      },
-      {
         "variantId": "GD03-105",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-105.webp"
       },
       {
-        "variantId": "GD03-105_p1",
+        "variantId": "GD03-105-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-105_p1.webp"
       }
     ]
@@ -9531,21 +8925,15 @@
     "cardText": "【バースト】このカードの【メイン】を発動する。\n【メイン】/【アクション】Lv.4以下の相手のユニット1つを選ぶ。それに3ダメージを与える。自分のトラッシュに、カード名に「戦技の向上」を含むカードが2枚以上あるなら、かわりに相手のユニット1つを選ぶ。",
     "variants": [
       {
-        "variantId": "GD03-109-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-109_p1.webp"
-      },
-      {
         "variantId": "GD03-109",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-109.webp"
       },
       {
-        "variantId": "GD03-109_p1",
+        "variantId": "GD03-109-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-109_p1.webp"
       },
       {
@@ -9656,21 +9044,15 @@
     "cardText": "【バースト】このカードの【アクション】を発動する。\n【アクション】アクティブのLv.2以下の相手のユニット1つを選ぶ。それを破壊する。自分のトラッシュにカードが10枚以上あるなら、かわりにアクティブのLv.4以下の相手のユニット1つを選ぶ。",
     "variants": [
       {
-        "variantId": "GD03-114-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-114_p1.webp"
-      },
-      {
         "variantId": "GD03-114",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-114.webp"
       },
       {
-        "variantId": "GD03-114_p1",
+        "variantId": "GD03-114-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-114_p1.webp"
       },
       {
@@ -9756,21 +9138,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【アクション】レストのLv.4以下の相手のユニット1つを選ぶ。それを持ち主の手札に戻す。その後、自分のトラッシュに、カード名に「能力の覚醒」を含むカードが2枚以上あるなら、味方のユニット1つを選んでもよい。このターン中、それは《ブロッカー》を得る。",
     "variants": [
       {
-        "variantId": "GD03-118-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD03-118_p1.webp"
-      },
-      {
         "variantId": "GD03-118",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD03-118.webp"
       },
       {
-        "variantId": "GD03-118_p1",
+        "variantId": "GD03-118-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD03-118_p1.webp"
       },
       {
@@ -10071,16 +9447,16 @@
     "cardText": "【バースト】このカードを手札に加える。\n【セット時】自分のユニット1つと、相手のユニット1つを選ぶ。それらに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "ST05-010-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-010_p3.webp"
-      },
-      {
         "variantId": "ST05-010",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST05-010.webp"
+      },
+      {
+        "variantId": "ST05-010-C+",
+        "rarity": "C",
+        "parallel": "+",
+        "imageUrl": "/card-images/ST05-010_p3.webp"
       },
       {
         "variantId": "ST05-010_p1",
@@ -10089,22 +9465,16 @@
         "imageUrl": "/card-images/ST05-010_p1.webp"
       },
       {
-        "variantId": "ST05-010_p2",
-        "rarity": "P",
-        "parallel": "P2",
-        "imageUrl": "/card-images/ST05-010_p2.webp"
-      },
-      {
         "variantId": "ST05-010_p4",
         "rarity": "C",
         "parallel": "P4",
         "imageUrl": "/card-images/ST05-010_p4.webp"
       },
       {
-        "variantId": "ST05-010_p3",
-        "rarity": "C",
-        "parallel": "P3",
-        "imageUrl": "/card-images/ST05-010_p3.webp"
+        "variantId": "ST05-010_p2",
+        "rarity": "P",
+        "parallel": "P2",
+        "imageUrl": "/card-images/ST05-010_p2.webp"
       }
     ]
   },
@@ -10120,16 +9490,16 @@
     "cardText": "【メイン】/【アクション】自分のユニット1つを選ぶ。それに1ダメージを与え、このターン中、それをAP+3する。",
     "variants": [
       {
-        "variantId": "ST05-013-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-013_p3.webp"
-      },
-      {
         "variantId": "ST05-013",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST05-013.webp"
+      },
+      {
+        "variantId": "ST05-013-C+",
+        "rarity": "C",
+        "parallel": "+",
+        "imageUrl": "/card-images/ST05-013_p3.webp"
       },
       {
         "variantId": "ST05-013_p1",
@@ -10142,12 +9512,6 @@
         "rarity": "C",
         "parallel": "P2",
         "imageUrl": "/card-images/ST05-013_p2.webp"
-      },
-      {
-        "variantId": "ST05-013_p3",
-        "rarity": "C",
-        "parallel": "P3",
-        "imageUrl": "/card-images/ST05-013_p3.webp"
       }
     ]
   },
@@ -10163,16 +9527,16 @@
     "cardText": "【バースト】相手のユニット1つを選ぶ。それに1ダメージを与える。\n【メイン】Lv.3以下の相手のユニット1つを選ぶ。それを破壊する。",
     "variants": [
       {
-        "variantId": "ST05-014-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-014_p4.webp"
-      },
-      {
         "variantId": "ST05-014",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST05-014.webp"
+      },
+      {
+        "variantId": "ST05-014-C+",
+        "rarity": "C",
+        "parallel": "+",
+        "imageUrl": "/card-images/ST05-014_p4.webp"
       },
       {
         "variantId": "ST05-014_p1",
@@ -10191,12 +9555,6 @@
         "rarity": "C",
         "parallel": "P3",
         "imageUrl": "/card-images/ST05-014_p3.webp"
-      },
-      {
-        "variantId": "ST05-014_p4",
-        "rarity": "C",
-        "parallel": "P4",
-        "imageUrl": "/card-images/ST05-014_p4.webp"
       }
     ]
   },
@@ -10656,16 +10014,16 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)\n【セット時・Lv.4以上のパイロット】HP4以下の相手のユニット1つを選ぶ。それを持ち主の手札に戻す。",
     "variants": [
       {
-        "variantId": "ST04-001-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-001_p4.webp"
-      },
-      {
         "variantId": "ST04-001",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST04-001.webp"
+      },
+      {
+        "variantId": "ST04-001-LR+",
+        "rarity": "LR",
+        "parallel": "+",
+        "imageUrl": "/card-images/ST04-001_p4.webp"
       },
       {
         "variantId": "ST04-001_p1",
@@ -10684,12 +10042,6 @@
         "rarity": "LR",
         "parallel": "P3",
         "imageUrl": "/card-images/ST04-001_p3.webp"
-      },
-      {
-        "variantId": "ST04-001_p4",
-        "rarity": "LR",
-        "parallel": "P4",
-        "imageUrl": "/card-images/ST04-001_p4.webp"
       }
     ]
   },
@@ -10705,21 +10057,15 @@
     "cardText": "【リンク中】【アタック時】相手のユニットにアタックしているなら、このユニットにセットされている青のパイロットを持ち主の手札に戻してもよい。",
     "variants": [
       {
-        "variantId": "GD04-001-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-001_p1.webp"
-      },
-      {
         "variantId": "GD04-001",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD04-001.webp"
       },
       {
-        "variantId": "GD04-001_p1",
+        "variantId": "GD04-001-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-001_p1.webp"
       }
     ]
@@ -10736,21 +10082,15 @@
     "cardText": "自分のターン中、〔地球連邦〕の自分のユニットすべてをAP+1する。\n【配備時】このターン中、〔地球連邦〕の自分のユニットがバトルダメージで相手のユニットを破壊したとき、HP5以下の相手のユニット1つを選ぶ。それをレストにする。",
     "variants": [
       {
-        "variantId": "GD04-002-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-002_p1.webp"
-      },
-      {
         "variantId": "GD04-002",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD04-002.webp"
       },
       {
-        "variantId": "GD04-002_p1",
+        "variantId": "GD04-002-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-002_p1.webp"
       }
     ]
@@ -10767,21 +10107,15 @@
     "cardText": "【アタック時】〔リガ・ミリティア〕の自分のユニットが3つ以上いるなら、自分は1枚ドローする。",
     "variants": [
       {
-        "variantId": "GD04-003-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-003_p1.webp"
-      },
-      {
         "variantId": "GD04-003",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD04-003.webp"
       },
       {
-        "variantId": "GD04-003_p1",
+        "variantId": "GD04-003-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-003_p1.webp"
       }
     ]
@@ -10836,21 +10170,15 @@
     "cardText": "《突破3》(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)\n【起動・メイン】【ターン1回】このユニット以外の、〔リガ・ミリティア〕の自分のユニット1つをレストにする：HP4以下の相手のユニット1つを選ぶ。それをレストにする。",
     "variants": [
       {
-        "variantId": "GD04-006-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-006_p1.webp"
-      },
-      {
         "variantId": "GD04-006",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-006.webp"
       },
       {
-        "variantId": "GD04-006_p1",
+        "variantId": "GD04-006-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-006_p1.webp"
       }
     ]
@@ -10905,21 +10233,15 @@
     "cardText": "【リンク時】このユニット以外の、Lv.4以上の〔WB隊〕の自分のユニット1つを選ぶ。それをアクティブにする。",
     "variants": [
       {
-        "variantId": "GD04-009-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-009_p1.webp"
-      },
-      {
         "variantId": "GD04-009",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-009.webp"
       },
       {
-        "variantId": "GD04-009_p1",
+        "variantId": "GD04-009-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-009_p1.webp"
       }
     ]
@@ -11069,6 +10391,12 @@
     "cardText": "【セット時・〔ニュータイプ〕のパイロット】「有線式アーム」(〔ジオン〕・AP2・HP1・このユニットはパイロットをセットできない)のユニットトークン2つを配備する。\n【破壊時】「ジオング(ヘッド)」(〔ジオン〕・AP3・HP1)のユニットトークン1つをレストで配備する。",
     "variants": [
       {
+        "variantId": "GD04-017",
+        "rarity": "LR",
+        "parallel": "",
+        "imageUrl": "/card-images/GD04-017.webp"
+      },
+      {
         "variantId": "GD04-017-LR+",
         "rarity": "LR",
         "parallel": "+",
@@ -11078,24 +10406,6 @@
         "variantId": "GD04-017-LR++",
         "rarity": "LR",
         "parallel": "++",
-        "imageUrl": "/card-images/GD04-017_p2.webp"
-      },
-      {
-        "variantId": "GD04-017",
-        "rarity": "LR",
-        "parallel": "",
-        "imageUrl": "/card-images/GD04-017.webp"
-      },
-      {
-        "variantId": "GD04-017_p1",
-        "rarity": "LR",
-        "parallel": "P1",
-        "imageUrl": "/card-images/GD04-017_p1.webp"
-      },
-      {
-        "variantId": "GD04-017_p2",
-        "rarity": "LR",
-        "parallel": "P2",
         "imageUrl": "/card-images/GD04-017_p2.webp"
       }
     ]
@@ -11112,21 +10422,15 @@
     "cardText": "《突破5》(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)\n【ターン1回】自分のターン中、このユニット以外の、〔学園〕の自分のユニットが相手からダメージを受けたとき、自分はEXリソース1つを置く。",
     "variants": [
       {
-        "variantId": "GD04-018-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-018_p1.webp"
-      },
-      {
         "variantId": "GD04-018",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD04-018.webp"
       },
       {
-        "variantId": "GD04-018_p1",
+        "variantId": "GD04-018-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-018_p1.webp"
       }
     ]
@@ -11181,21 +10485,15 @@
     "cardText": "《突破3》(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)\n自分のターン中、自分がEXリソースを使用して〔フォルドの夜明け〕のコマンドカードをプレイし発動したとき、トラッシュのそのカードを、カード名に「ガンダム・ルブリス」を含む自分のユニットにセットしてもよい。",
     "variants": [
       {
-        "variantId": "GD04-021-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-021_p1.webp"
-      },
-      {
         "variantId": "GD04-021",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-021.webp"
       },
       {
-        "variantId": "GD04-021_p1",
+        "variantId": "GD04-021-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-021_p1.webp"
       }
     ]
@@ -11212,21 +10510,15 @@
     "cardText": "自分のユニットトークンすべては《突破1》を得る。\n(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)\n【リンク中】ユニットトークン以外の、Lv.3以下のユニットすべては、レストで配備される。",
     "variants": [
       {
-        "variantId": "GD04-022-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-022_p1.webp"
-      },
-      {
         "variantId": "GD04-022",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-022.webp"
       },
       {
-        "variantId": "GD04-022_p1",
+        "variantId": "GD04-022-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-022_p1.webp"
       }
     ]
@@ -11439,21 +10731,15 @@
     "cardText": "このユニットか、〔ネオ・ジオン〕の自分のユニットが配備されたとき、相手のユニット1つを選ぶ。それに3ダメージを与える。\n【リンク中】自分のユニットすべては〔ネオ・ジオン〕を得る。",
     "variants": [
       {
-        "variantId": "GD04-033-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-033_p1.webp"
-      },
-      {
         "variantId": "GD04-033",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD04-033.webp"
       },
       {
-        "variantId": "GD04-033_p1",
+        "variantId": "GD04-033-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-033_p1.webp"
       }
     ]
@@ -11470,21 +10756,15 @@
     "cardText": "《先制攻撃》(アタック中のこのユニットは、相手より先にダメージを与える)\n【リンク中】このユニットを、レストの〔CB〕の自分のユニット1つにつきAP+2する。",
     "variants": [
       {
-        "variantId": "GD04-034-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-034_p1.webp"
-      },
-      {
         "variantId": "GD04-034",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD04-034.webp"
       },
       {
-        "variantId": "GD04-034_p1",
+        "variantId": "GD04-034-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-034_p1.webp"
       }
     ]
@@ -11520,21 +10800,15 @@
     "cardText": "【配備時】このユニット以外の、アクティブの〔CB〕の自分のユニット1～2つを選んでもよい。それらをレストにする。そうしたなら、Lv.6以下の相手のユニットすべてに、この効果でレストにしたユニットと同じ数だけダメージを与える。",
     "variants": [
       {
-        "variantId": "GD04-036-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-036_p1.webp"
-      },
-      {
         "variantId": "GD04-036",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-036.webp"
       },
       {
-        "variantId": "GD04-036_p1",
+        "variantId": "GD04-036-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-036_p1.webp"
       }
     ]
@@ -11646,21 +10920,15 @@
     "cardText": "【リンク中】【ターン1回】〔強化人間〕のパイロットがセットされている自分のユニットのダメージで相手のシールドエリアのカードを破壊したとき、AP5以下の相手のユニット1つを選ぶ。それに2ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD04-042-U+",
-        "rarity": "U",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-042_p1.webp"
-      },
-      {
         "variantId": "GD04-042",
         "rarity": "U",
         "parallel": "",
         "imageUrl": "/card-images/GD04-042.webp"
       },
       {
-        "variantId": "GD04-042_p1",
+        "variantId": "GD04-042-U+",
         "rarity": "U",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-042_p1.webp"
       }
     ]
@@ -11791,21 +11059,15 @@
     "cardText": "《制圧》(アタックでシールドに与えるダメージは、先頭から2つに同時に与えられる)\n【セット中】【アタック時】相手プレイヤーにアタックしているなら、自分のトラッシュの〔バルチャー〕のカード7枚を選んでもよい。それらをゲームから除外する。そうしたなら、Lv.8以下の相手の、ユニット1つ/ベース1つを選ぶ。それを破壊する。",
     "variants": [
       {
-        "variantId": "GD04-049-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-049_p1.webp"
-      },
-      {
         "variantId": "GD04-049",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD04-049.webp"
       },
       {
-        "variantId": "GD04-049_p1",
+        "variantId": "GD04-049-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-049_p1.webp"
       }
     ]
@@ -11822,6 +11084,12 @@
     "cardText": "《高機動》(このユニットはブロックされない)\n【セット中】【アタック時】自分のトラッシュの〔ミネルバ隊〕のユニットカード1枚を選んでもよい。それをコストを支払って配備する。",
     "variants": [
       {
+        "variantId": "GD04-050",
+        "rarity": "LR",
+        "parallel": "",
+        "imageUrl": "/card-images/GD04-050.webp"
+      },
+      {
         "variantId": "GD04-050-LR+",
         "rarity": "LR",
         "parallel": "+",
@@ -11831,24 +11099,6 @@
         "variantId": "GD04-050-LR++",
         "rarity": "LR",
         "parallel": "++",
-        "imageUrl": "/card-images/GD04-050_p2.webp"
-      },
-      {
-        "variantId": "GD04-050",
-        "rarity": "LR",
-        "parallel": "",
-        "imageUrl": "/card-images/GD04-050.webp"
-      },
-      {
-        "variantId": "GD04-050_p1",
-        "rarity": "LR",
-        "parallel": "P1",
-        "imageUrl": "/card-images/GD04-050_p1.webp"
-      },
-      {
-        "variantId": "GD04-050_p2",
-        "rarity": "LR",
-        "parallel": "P2",
         "imageUrl": "/card-images/GD04-050_p2.webp"
       }
     ]
@@ -11903,21 +11153,15 @@
     "cardText": "【リンク中】【ターン1回】このユニットが相手からダメージを受けるとき、そのダメージを1軽減する。",
     "variants": [
       {
-        "variantId": "GD04-053-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-053_p1.webp"
-      },
-      {
         "variantId": "GD04-053",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-053.webp"
       },
       {
-        "variantId": "GD04-053_p1",
+        "variantId": "GD04-053-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-053_p1.webp"
       }
     ]
@@ -12143,21 +11387,15 @@
     "cardText": "【リンク中】【起動・メイン】自分のトラッシュの青のカード3枚をゲームから除外する：このユニットをアクティブにし、このターン中、これは相手プレイヤーをアタック先に選べない。\n【アタック時】このターン中、相手のユニットすべてをAP-1する。",
     "variants": [
       {
-        "variantId": "GD04-065-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-065_p1.webp"
-      },
-      {
         "variantId": "GD04-065",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD04-065.webp"
       },
       {
-        "variantId": "GD04-065_p1",
+        "variantId": "GD04-065-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-065_p1.webp"
       }
     ]
@@ -12174,21 +11412,15 @@
     "cardText": "《制圧》(アタックでシールドに与えるダメージは、先頭から2つに同時に与えられる)\n自分がコマンドの【メイン】/【アクション】を発動したとき、相手のユニット1つを選ぶ。このターン中、それをAP-2する。",
     "variants": [
       {
-        "variantId": "GD04-066-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-066_p1.webp"
-      },
-      {
         "variantId": "GD04-066",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD04-066.webp"
       },
       {
-        "variantId": "GD04-066_p1",
+        "variantId": "GD04-066-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-066_p1.webp"
       }
     ]
@@ -12205,21 +11437,15 @@
     "cardText": "【起動・メイン】【ターン1回】①：トラッシュの、《リペア》/《突破》/《先制攻撃》/《援護》/《高機動》/《制圧》/《ブロッカー》を持つユニットカード1枚を選ぶ。このターン中、このユニットはAP+1され、それが持つ《リペア》/《突破》/《先制攻撃》/《援護》/《高機動》/《制圧》/《ブロッカー》すべてを得る。",
     "variants": [
       {
-        "variantId": "GD04-067-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-067_p1.webp"
-      },
-      {
         "variantId": "GD04-067",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/GD04-067.webp"
       },
       {
-        "variantId": "GD04-067_p1",
+        "variantId": "GD04-067-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-067_p1.webp"
       }
     ]
@@ -12236,21 +11462,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)\nこのユニットが相手から効果ダメージを受けるとき、そのダメージを3軽減する。",
     "variants": [
       {
-        "variantId": "GD04-068-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-068_p1.webp"
-      },
-      {
         "variantId": "GD04-068",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-068.webp"
       },
       {
-        "variantId": "GD04-068_p1",
+        "variantId": "GD04-068-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-068_p1.webp"
       }
     ]
@@ -12305,21 +11525,15 @@
     "cardText": "【バースト】〔CB〕の相手のユニットがいるなら、このカードを手札に加える。\n【起動・メイン】自分のトラッシュの、〔超大国群〕のカード1枚と、〔国連〕のカード1枚を選ぶ。それらをゲームから除外する。そうしたなら、このユニットをアクティブにし、このターン中、これはアタックできない。",
     "variants": [
       {
-        "variantId": "GD04-071-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-071_p1.webp"
-      },
-      {
         "variantId": "GD04-071",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-071.webp"
       },
       {
-        "variantId": "GD04-071_p1",
+        "variantId": "GD04-071-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-071_p1.webp"
       }
     ]
@@ -12507,21 +11721,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【セット時】このユニットが〔リガ・ミリティア〕なら、「パーツ」(〔リガ・ミリティア〕・AP1・HP1・このユニットは相手プレイヤーをアタック先に選べない)のユニットトークン1つを配備する。",
     "variants": [
       {
-        "variantId": "GD04-081-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-081_p1.webp"
-      },
-      {
         "variantId": "GD04-081",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-081.webp"
       },
       {
-        "variantId": "GD04-081_p1",
+        "variantId": "GD04-081-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-081_p1.webp"
       }
     ]
@@ -12595,21 +11803,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク中】【ターン1回】自分がEXリソースを使用して〔学園〕のコマンドカードをプレイし発動したとき、自分のEXリソースがないなら、自分はEXリソース1つをレストで置く。",
     "variants": [
       {
-        "variantId": "GD04-085-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-085_p1.webp"
-      },
-      {
         "variantId": "GD04-085",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-085.webp"
       },
       {
-        "variantId": "GD04-085_p1",
+        "variantId": "GD04-085-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-085_p1.webp"
       },
       {
@@ -12689,21 +11891,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【起動・メイン】《援護2》(レストにすることで、このターン中、他の味方のユニット1つをAP+(指定の数)する)",
     "variants": [
       {
-        "variantId": "GD04-089-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-089_p1.webp"
-      },
-      {
         "variantId": "GD04-089",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-089.webp"
       },
       {
-        "variantId": "GD04-089_p1",
+        "variantId": "GD04-089-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-089_p1.webp"
       }
     ]
@@ -12777,21 +11973,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク時】〔ザフト〕の自分のリンクユニット1つを選ぶ。このターン中、それが次に受けるダメージを2軽減する。",
     "variants": [
       {
-        "variantId": "GD04-093-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-093_p1.webp"
-      },
-      {
         "variantId": "GD04-093",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-093.webp"
       },
       {
-        "variantId": "GD04-093_p1",
+        "variantId": "GD04-093-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-093_p1.webp"
       }
     ]
@@ -12827,21 +12017,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク時】〔ミネルバ隊〕の自分のユニット1つを選ぶ。このターン中、それが受けるバトルダメージは、かわりにこのユニットが受ける。",
     "variants": [
       {
-        "variantId": "GD04-095-U+",
-        "rarity": "U",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-095_p1.webp"
-      },
-      {
         "variantId": "GD04-095",
         "rarity": "U",
         "parallel": "",
         "imageUrl": "/card-images/GD04-095.webp"
       },
       {
-        "variantId": "GD04-095_p1",
+        "variantId": "GD04-095-U+",
         "rarity": "U",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-095_p1.webp"
       }
     ]
@@ -12877,21 +12061,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク時】HP3以下の相手のユニット1つを選ぶ。それを持ち主の手札に戻す。",
     "variants": [
       {
-        "variantId": "GD04-097-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-097_p1.webp"
-      },
-      {
         "variantId": "GD04-097",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-097.webp"
       },
       {
-        "variantId": "GD04-097_p1",
+        "variantId": "GD04-097-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-097_p1.webp"
       }
     ]
@@ -12984,21 +12162,15 @@
     "cardText": "【バースト】自分は1枚ドローする。\n【メイン】レストのLv.5以下の相手のユニット1つを選ぶ。それは次の相手のターンのスタートフェイズでアクティブにならない。",
     "variants": [
       {
-        "variantId": "GD04-102-U+",
-        "rarity": "U",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-102_p1.webp"
-      },
-      {
         "variantId": "GD04-102",
         "rarity": "U",
         "parallel": "",
         "imageUrl": "/card-images/GD04-102.webp"
       },
       {
-        "variantId": "GD04-102_p1",
+        "variantId": "GD04-102-U+",
         "rarity": "U",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-102_p1.webp"
       }
     ]
@@ -13053,21 +12225,15 @@
     "cardText": "【メイン】自分のデッキを上から5枚見て、その中の、パイロットカード1枚を公開して手札に加えてもよい。残ったカードは無作為に下に戻す。",
     "variants": [
       {
-        "variantId": "GD04-105-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-105_p1.webp"
-      },
-      {
         "variantId": "GD04-105",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-105.webp"
       },
       {
-        "variantId": "GD04-105_p1",
+        "variantId": "GD04-105-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-105_p1.webp"
       }
     ]
@@ -13160,21 +12326,15 @@
     "cardText": "【メイン】/【アクション】自分はEXベース1つを配備する。",
     "variants": [
       {
-        "variantId": "GD04-110-U+",
-        "rarity": "U",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-110_p1.webp"
-      },
-      {
         "variantId": "GD04-110",
         "rarity": "U",
         "parallel": "",
         "imageUrl": "/card-images/GD04-110.webp"
       },
       {
-        "variantId": "GD04-110_p1",
+        "variantId": "GD04-110-U+",
         "rarity": "U",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-110_p1.webp"
       }
     ]
@@ -13248,21 +12408,15 @@
     "cardText": "【バースト】自分のトラッシュのカード名に「トランザム」を含むユニットカード1枚を選ぶ。それを手札に加える。\n【メイン】/【アクション】自分のユニット1つと、相手のユニット1つを選ぶ。それらに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "GD04-114-U+",
-        "rarity": "U",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-114_p1.webp"
-      },
-      {
         "variantId": "GD04-114",
         "rarity": "U",
         "parallel": "",
         "imageUrl": "/card-images/GD04-114.webp"
       },
       {
-        "variantId": "GD04-114_p1",
+        "variantId": "GD04-114-U+",
         "rarity": "U",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-114_p1.webp"
       }
     ]
@@ -13317,21 +12471,15 @@
     "cardText": "【バースト】このカードの【アクション】を発動する。\n【アクション】Lv.3以下の相手のユニット1～2つを選ぶ。それらを持ち主の手札に戻す。",
     "variants": [
       {
-        "variantId": "GD04-117-R+",
-        "rarity": "R",
-        "parallel": "+",
-        "imageUrl": "/card-images/GD04-117_p1.webp"
-      },
-      {
         "variantId": "GD04-117",
         "rarity": "R",
         "parallel": "",
         "imageUrl": "/card-images/GD04-117.webp"
       },
       {
-        "variantId": "GD04-117_p1",
+        "variantId": "GD04-117-R+",
         "rarity": "R",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/GD04-117_p1.webp"
       }
     ]
@@ -13927,21 +13075,15 @@
     "cardText": "《リペア2》(自分のターン終了時、このユニットを指定の数回復する)\n【セット中】自分のターン中、自分のユニットすべてをAP+1する。",
     "variants": [
       {
-        "variantId": "ST01-001-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-001_p1.webp"
-      },
-      {
         "variantId": "ST01-001",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST01-001.webp"
       },
       {
-        "variantId": "ST01-001_p1",
+        "variantId": "ST01-001-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-001_p1.webp"
       },
       {
@@ -13994,21 +13136,15 @@
     "cardText": "【セット時・〔WB隊〕のパイロット】自分は1枚ドローする。",
     "variants": [
       {
-        "variantId": "ST01-002-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-002_p1.webp"
-      },
-      {
         "variantId": "ST01-002",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST01-002.webp"
       },
       {
-        "variantId": "ST01-002_p1",
+        "variantId": "ST01-002-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-002_p1.webp"
       },
       {
@@ -14031,21 +13167,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST01-003-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-003_p1.webp"
-      },
-      {
         "variantId": "ST01-003",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST01-003.webp"
       },
       {
-        "variantId": "ST01-003_p1",
+        "variantId": "ST01-003-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-003_p1.webp"
       }
     ]
@@ -14062,21 +13192,15 @@
     "cardText": "【配備時】HP2以下の相手のユニット1つを選ぶ。それをレストにする。",
     "variants": [
       {
-        "variantId": "ST01-004-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-004_p1.webp"
-      },
-      {
         "variantId": "ST01-004",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST01-004.webp"
       },
       {
-        "variantId": "ST01-004_p1",
+        "variantId": "ST01-004-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-004_p1.webp"
       }
     ]
@@ -14093,21 +13217,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST01-005-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-005_p1.webp"
-      },
-      {
         "variantId": "ST01-005",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST01-005.webp"
       },
       {
-        "variantId": "ST01-005_p1",
+        "variantId": "ST01-005-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-005_p1.webp"
       },
       {
@@ -14130,21 +13248,15 @@
     "cardText": "【セット時】Lv.5以下の相手のユニット1つを選ぶ。このターン中、それをAP-3する。",
     "variants": [
       {
-        "variantId": "ST01-006-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-006_p1.webp"
-      },
-      {
         "variantId": "ST01-006",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST01-006.webp"
       },
       {
-        "variantId": "ST01-006_p1",
+        "variantId": "ST01-006-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-006_p1.webp"
       }
     ]
@@ -14161,21 +13273,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST01-007-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-007_p1.webp"
-      },
-      {
         "variantId": "ST01-007",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST01-007.webp"
       },
       {
-        "variantId": "ST01-007_p1",
+        "variantId": "ST01-007-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-007_p1.webp"
       },
       {
@@ -14198,21 +13304,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)",
     "variants": [
       {
-        "variantId": "ST01-008-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-008_p1.webp"
-      },
-      {
         "variantId": "ST01-008",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST01-008.webp"
       },
       {
-        "variantId": "ST01-008_p1",
+        "variantId": "ST01-008-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-008_p1.webp"
       },
       {
@@ -14235,21 +13335,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)\nこのユニットは、相手プレイヤーをアタック先に選べない。",
     "variants": [
       {
-        "variantId": "ST01-009-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-009_p1.webp"
-      },
-      {
         "variantId": "ST01-009",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST01-009.webp"
       },
       {
-        "variantId": "ST01-009_p1",
+        "variantId": "ST01-009-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-009_p1.webp"
       }
     ]
@@ -14266,21 +13360,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【セット時】HP5以下の相手のユニット1つを選ぶ。それをレストにする。",
     "variants": [
       {
-        "variantId": "ST01-010-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-010_p1.webp"
-      },
-      {
         "variantId": "ST01-010",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST01-010.webp"
       },
       {
-        "variantId": "ST01-010_p1",
+        "variantId": "ST01-010-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-010_p1.webp"
       },
       {
@@ -14309,21 +13397,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【アタック時】【ターン1回】自分のリソース1つを選ぶ。それをアクティブにする。",
     "variants": [
       {
-        "variantId": "ST01-011-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-011_p1.webp"
-      },
-      {
         "variantId": "ST01-011",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST01-011.webp"
       },
       {
-        "variantId": "ST01-011_p1",
+        "variantId": "ST01-011-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-011_p1.webp"
       },
       {
@@ -14358,21 +13440,15 @@
     "cardText": "【メイン】レストの相手のユニット1つを選ぶ。それに1ダメージを与える。\n【パイロット】「ハヤト・コバヤシ」",
     "variants": [
       {
-        "variantId": "ST01-012-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-012_p1.webp"
-      },
-      {
         "variantId": "ST01-012",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST01-012.webp"
       },
       {
-        "variantId": "ST01-012_p1",
+        "variantId": "ST01-012-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-012_p1.webp"
       },
       {
@@ -14395,21 +13471,15 @@
     "cardText": "【メイン】味方のユニット1つを選ぶ。それを3回復する。\n【パイロット】「カイ・シデン」",
     "variants": [
       {
-        "variantId": "ST01-013-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-013_p1.webp"
-      },
-      {
         "variantId": "ST01-013",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST01-013.webp"
       },
       {
-        "variantId": "ST01-013_p1",
+        "variantId": "ST01-013-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-013_p1.webp"
       },
       {
@@ -14432,21 +13502,15 @@
     "cardText": "【バースト】このカードの【メイン】を発動する。\n【メイン】/【アクション】相手のユニット1つを選ぶ。このターン中、それをAP-3する。",
     "variants": [
       {
-        "variantId": "ST01-014-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-014_p1.webp"
-      },
-      {
         "variantId": "ST01-014",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST01-014.webp"
       },
       {
-        "variantId": "ST01-014_p1",
+        "variantId": "ST01-014-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-014_p1.webp"
       },
       {
@@ -14499,21 +13563,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。",
     "variants": [
       {
-        "variantId": "ST01-015-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-015_p1.webp"
-      },
-      {
         "variantId": "ST01-015",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST01-015.webp"
       },
       {
-        "variantId": "ST01-015_p1",
+        "variantId": "ST01-015-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-015_p1.webp"
       },
       {
@@ -14536,21 +13594,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。",
     "variants": [
       {
-        "variantId": "ST01-016-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST01-016_p1.webp"
-      },
-      {
         "variantId": "ST01-016",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST01-016.webp"
       },
       {
-        "variantId": "ST01-016_p1",
+        "variantId": "ST01-016-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST01-016_p1.webp"
       },
       {
@@ -14648,21 +13700,15 @@
     "cardText": "《突破5》(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)\nこのユニットは、アクティブのLv.4以下の相手のユニットをアタック先に選んでもよい。",
     "variants": [
       {
-        "variantId": "ST02-001-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-001_p1.webp"
-      },
-      {
         "variantId": "ST02-001",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST02-001.webp"
       },
       {
-        "variantId": "ST02-001_p1",
+        "variantId": "ST02-001-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-001_p1.webp"
       },
       {
@@ -14691,21 +13737,15 @@
     "cardText": "【配備時】自分はEXリソース1つを置く。",
     "variants": [
       {
-        "variantId": "ST02-002-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-002_p1.webp"
-      },
-      {
         "variantId": "ST02-002",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST02-002.webp"
       },
       {
-        "variantId": "ST02-002_p1",
+        "variantId": "ST02-002-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-002_p1.webp"
       },
       {
@@ -14740,21 +13780,15 @@
     "cardText": "【セット中】自分のターン中、このユニットがバトルダメージで相手のユニットを破壊したとき、Lv.3以下の相手のユニットすべてに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "ST02-003-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-003_p1.webp"
-      },
-      {
         "variantId": "ST02-003",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST02-003.webp"
       },
       {
-        "variantId": "ST02-003_p1",
+        "variantId": "ST02-003-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-003_p1.webp"
       }
     ]
@@ -14771,21 +13805,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST02-004-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-004_p1.webp"
-      },
-      {
         "variantId": "ST02-004",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST02-004.webp"
       },
       {
-        "variantId": "ST02-004_p1",
+        "variantId": "ST02-004-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-004_p1.webp"
       }
     ]
@@ -14802,21 +13830,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST02-005-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-005_p1.webp"
-      },
-      {
         "variantId": "ST02-005",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST02-005.webp"
       },
       {
-        "variantId": "ST02-005_p1",
+        "variantId": "ST02-005-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-005_p1.webp"
       },
       {
@@ -14839,21 +13861,15 @@
     "cardText": "【起動・メイン】【ターン1回】④：このユニットをアクティブにする。",
     "variants": [
       {
-        "variantId": "ST02-006-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-006_p1.webp"
-      },
-      {
         "variantId": "ST02-006",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST02-006.webp"
       },
       {
-        "variantId": "ST02-006_p1",
+        "variantId": "ST02-006-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-006_p1.webp"
       }
     ]
@@ -14870,21 +13886,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST02-007-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-007_p1.webp"
-      },
-      {
         "variantId": "ST02-007",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST02-007.webp"
       },
       {
-        "variantId": "ST02-007_p1",
+        "variantId": "ST02-007-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-007_p1.webp"
       }
     ]
@@ -14901,21 +13911,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)",
     "variants": [
       {
-        "variantId": "ST02-008-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-008_p1.webp"
-      },
-      {
         "variantId": "ST02-008",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST02-008.webp"
       },
       {
-        "variantId": "ST02-008_p1",
+        "variantId": "ST02-008-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-008_p1.webp"
       }
     ]
@@ -14932,21 +13936,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)",
     "variants": [
       {
-        "variantId": "ST02-009-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-009_p1.webp"
-      },
-      {
         "variantId": "ST02-009",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST02-009.webp"
       },
       {
-        "variantId": "ST02-009_p1",
+        "variantId": "ST02-009-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-009_p1.webp"
       }
     ]
@@ -14963,21 +13961,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク中】このユニットをAP+1、HP+1する。",
     "variants": [
       {
-        "variantId": "ST02-010-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-010_p1.webp"
-      },
-      {
         "variantId": "ST02-010",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST02-010.webp"
       },
       {
-        "variantId": "ST02-010_p1",
+        "variantId": "ST02-010-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-010_p1.webp"
       },
       {
@@ -15012,21 +14004,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク中】自分のターン中、このユニットがバトルダメージで相手のユニットを破壊したとき、自分は1枚ドローする。",
     "variants": [
       {
-        "variantId": "ST02-011-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-011_p1.webp"
-      },
-      {
         "variantId": "ST02-011",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST02-011.webp"
       },
       {
-        "variantId": "ST02-011_p1",
+        "variantId": "ST02-011-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-011_p1.webp"
       },
       {
@@ -15049,21 +14035,15 @@
     "cardText": "【メイン】自分のユニット1つを選ぶ。このターン中、それは《突破3》を得る。\n(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)\n【パイロット】「トロワ・バートン」",
     "variants": [
       {
-        "variantId": "ST02-012-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-012_p1.webp"
-      },
-      {
         "variantId": "ST02-012",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST02-012.webp"
       },
       {
-        "variantId": "ST02-012_p1",
+        "variantId": "ST02-012-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-012_p1.webp"
       },
       {
@@ -15086,21 +14066,15 @@
     "cardText": "【アクション】このバトル中、自分のシールドエリアのカードは、Lv.4以下の相手のユニットからダメージを受けない。\n【パイロット】「カトル・ラバーバ・ウィナー」",
     "variants": [
       {
-        "variantId": "ST02-013-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-013_p1.webp"
-      },
-      {
         "variantId": "ST02-013",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST02-013.webp"
       },
       {
-        "variantId": "ST02-013_p1",
+        "variantId": "ST02-013-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-013_p1.webp"
       },
       {
@@ -15123,21 +14097,15 @@
     "cardText": "【バースト】このカードの【メイン】を発動する。\n【メイン】/【アクション】HP5以下の相手のユニット1つを選ぶ。それをレストにする。",
     "variants": [
       {
-        "variantId": "ST02-014-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-014_p1.webp"
-      },
-      {
         "variantId": "ST02-014",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST02-014.webp"
       },
       {
-        "variantId": "ST02-014_p1",
+        "variantId": "ST02-014-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-014_p1.webp"
       },
       {
@@ -15166,21 +14134,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。その後、自分のデッキを上から2枚見て、その中のカード1枚を上に戻す。残ったカードは下に戻す。",
     "variants": [
       {
-        "variantId": "ST02-015-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-015_p1.webp"
-      },
-      {
         "variantId": "ST02-015",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST02-015.webp"
       },
       {
-        "variantId": "ST02-015_p1",
+        "variantId": "ST02-015-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-015_p1.webp"
       },
       {
@@ -15203,21 +14165,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。その後、自分のターンなら、「トールギス」(〔OZ〕・AP4・HP2)のユニットトークン1つを配備する。自分のターンで、自分のトラッシュにカード名に「コルシカ基地」を含むカードがあるなら、かわりに「リーオー」(〔OZ〕・AP1・HP1)のユニットトークン2つを配備する。",
     "variants": [
       {
-        "variantId": "ST02-016-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST02-016_p1.webp"
-      },
-      {
         "variantId": "ST02-016",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST02-016.webp"
       },
       {
-        "variantId": "ST02-016_p1",
+        "variantId": "ST02-016-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST02-016_p1.webp"
       }
     ]
@@ -15272,21 +14228,15 @@
     "cardText": "【セット中】このユニットは《高機動》を得る。\n(このユニットはブロックされない)\n自分のターン中、このユニットがバトルダメージで相手のシールドエリアのカードを破壊したとき、相手のユニット1つを選ぶ。それに2ダメージを与える。",
     "variants": [
       {
-        "variantId": "ST03-001-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-001_p1.webp"
-      },
-      {
         "variantId": "ST03-001",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST03-001.webp"
       },
       {
-        "variantId": "ST03-001_p1",
+        "variantId": "ST03-001-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-001_p1.webp"
       }
     ]
@@ -15303,21 +14253,15 @@
     "cardText": "【起動・メイン】《援護2》(レストにすることで、このターン中、他の味方のユニット1つをAP+(指定の数)する)",
     "variants": [
       {
-        "variantId": "ST03-002-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-002_p1.webp"
-      },
-      {
         "variantId": "ST03-002",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST03-002.webp"
       },
       {
-        "variantId": "ST03-002_p1",
+        "variantId": "ST03-002-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-002_p1.webp"
       }
     ]
@@ -15334,21 +14278,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST03-003-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-003_p1.webp"
-      },
-      {
         "variantId": "ST03-003",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST03-003.webp"
       },
       {
-        "variantId": "ST03-003_p1",
+        "variantId": "ST03-003-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-003_p1.webp"
       }
     ]
@@ -15365,21 +14303,15 @@
     "cardText": "【起動・メイン】《援護2》(レストにすることで、このターン中、他の味方のユニット1つをAP+(指定の数)する)",
     "variants": [
       {
-        "variantId": "ST03-004-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-004_p1.webp"
-      },
-      {
         "variantId": "ST03-004",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST03-004.webp"
       },
       {
-        "variantId": "ST03-004_p1",
+        "variantId": "ST03-004-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-004_p1.webp"
       }
     ]
@@ -15396,21 +14328,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST03-005-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-005_p1.webp"
-      },
-      {
         "variantId": "ST03-005",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST03-005.webp"
       },
       {
-        "variantId": "ST03-005_p1",
+        "variantId": "ST03-005-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-005_p1.webp"
       }
     ]
@@ -15427,21 +14353,15 @@
     "cardText": "【破壊時】自分のデッキを上から3枚見て、その中の、〔ジオン〕/〔ネオ・ジオン〕のユニットカード1枚を公開して手札に加えてもよい。残ったカードは無作為に下に戻す。",
     "variants": [
       {
-        "variantId": "ST03-006-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-006_p1.webp"
-      },
-      {
         "variantId": "ST03-006",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST03-006.webp"
       },
       {
-        "variantId": "ST03-006_p1",
+        "variantId": "ST03-006-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-006_p1.webp"
       },
       {
@@ -15464,21 +14384,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST03-007-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-007_p1.webp"
-      },
-      {
         "variantId": "ST03-007",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST03-007.webp"
       },
       {
-        "variantId": "ST03-007_p1",
+        "variantId": "ST03-007-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-007_p1.webp"
       },
       {
@@ -15501,21 +14415,15 @@
     "cardText": "【アタック時】このターン中、このユニットをAP+2する。",
     "variants": [
       {
-        "variantId": "ST03-008-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-008_p1.webp"
-      },
-      {
         "variantId": "ST03-008",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST03-008.webp"
       },
       {
-        "variantId": "ST03-008_p1",
+        "variantId": "ST03-008-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-008_p1.webp"
       },
       {
@@ -15550,21 +14458,15 @@
     "cardText": "【配備時】「ザクⅡ」(〔ジオン〕・AP1・HP1)のユニットトークン1つをレストで配備する。",
     "variants": [
       {
-        "variantId": "ST03-009-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-009_p1.webp"
-      },
-      {
         "variantId": "ST03-009",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST03-009.webp"
       },
       {
-        "variantId": "ST03-009_p1",
+        "variantId": "ST03-009-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-009_p1.webp"
       }
     ]
@@ -15581,21 +14483,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【セット時】自分の手札の、Lv.4以下の、〔ネオ・ジオン〕/〔ジオン〕のユニットカード1枚を配備してもよい。",
     "variants": [
       {
-        "variantId": "ST03-010-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-010_p1.webp"
-      },
-      {
         "variantId": "ST03-010",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST03-010.webp"
       },
       {
-        "variantId": "ST03-010_p1",
+        "variantId": "ST03-010-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-010_p1.webp"
       }
     ]
@@ -15612,21 +14508,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【アタック時】このターン中、このユニットをAP+1し、これがリンクユニットなら、これは《高機動》を得る。",
     "variants": [
       {
-        "variantId": "ST03-011-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-011_p1.webp"
-      },
-      {
         "variantId": "ST03-011",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST03-011.webp"
       },
       {
-        "variantId": "ST03-011_p1",
+        "variantId": "ST03-011-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-011_p1.webp"
       },
       {
@@ -15655,21 +14545,15 @@
     "cardText": "【メイン】/【アクション】味方のユニット1つを選ぶ。このターン中、それをAP+2する。\n【パイロット】「アンジェロ・ザウパー」",
     "variants": [
       {
-        "variantId": "ST03-012-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-012_p1.webp"
-      },
-      {
         "variantId": "ST03-012",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST03-012.webp"
       },
       {
-        "variantId": "ST03-012_p1",
+        "variantId": "ST03-012-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-012_p1.webp"
       }
     ]
@@ -15686,21 +14570,15 @@
     "cardText": "【バースト】このカードの【メイン】を発動する。\n【メイン】/【アクション】相手のユニット1つを選ぶ。それに2ダメージを与える。",
     "variants": [
       {
-        "variantId": "ST03-013-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-013_p1.webp"
-      },
-      {
         "variantId": "ST03-013",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST03-013.webp"
       },
       {
-        "variantId": "ST03-013_p1",
+        "variantId": "ST03-013-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-013_p1.webp"
       },
       {
@@ -15735,21 +14613,15 @@
     "cardText": "【アクション】味方のユニット1つを選ぶ。このバトル中、それはAP2以下の相手のユニットからバトルダメージを受けない。\n【パイロット】「ランバ・ラル」",
     "variants": [
       {
-        "variantId": "ST03-014-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-014_p1.webp"
-      },
-      {
         "variantId": "ST03-014",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST03-014.webp"
       },
       {
-        "variantId": "ST03-014_p1",
+        "variantId": "ST03-014-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-014_p1.webp"
       }
     ]
@@ -15766,21 +14638,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。その後、AP5以下の相手のユニット1つを選ぶ。それに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "ST03-015-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-015_p1.webp"
-      },
-      {
         "variantId": "ST03-015",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST03-015.webp"
       },
       {
-        "variantId": "ST03-015_p1",
+        "variantId": "ST03-015-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-015_p1.webp"
       }
     ]
@@ -15797,21 +14663,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。その後、自分のターンなら、「ザクⅡ（シャア・アズナブル機）」(〔ジオン〕・AP3・HP1)のユニットトークン1つをレストで配備する。",
     "variants": [
       {
-        "variantId": "ST03-016-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST03-016_p1.webp"
-      },
-      {
         "variantId": "ST03-016",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST03-016.webp"
       },
       {
-        "variantId": "ST03-016_p1",
+        "variantId": "ST03-016-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST03-016_p1.webp"
       },
       {
@@ -15878,21 +14738,15 @@
     "cardText": "【配備時】自分は1枚ドローする。その後、自分の手札1枚を捨てる。",
     "variants": [
       {
-        "variantId": "ST04-002-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-002_p1.webp"
-      },
-      {
         "variantId": "ST04-002",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST04-002.webp"
       },
       {
-        "variantId": "ST04-002_p1",
+        "variantId": "ST04-002-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-002_p1.webp"
       },
       {
@@ -15902,16 +14756,16 @@
         "imageUrl": "/card-images/ST04-002_p2.webp"
       },
       {
-        "variantId": "ST04-002_p3",
-        "rarity": "P",
-        "parallel": "P3",
-        "imageUrl": "/card-images/ST04-002_p3.webp"
-      },
-      {
         "variantId": "ST04-002_p4",
         "rarity": "C",
         "parallel": "P4",
         "imageUrl": "/card-images/ST04-002_p4.webp"
+      },
+      {
+        "variantId": "ST04-002_p3",
+        "rarity": "P",
+        "parallel": "P3",
+        "imageUrl": "/card-images/ST04-002_p3.webp"
       }
     ]
   },
@@ -15927,21 +14781,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST04-003-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-003_p1.webp"
-      },
-      {
         "variantId": "ST04-003",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST04-003.webp"
       },
       {
-        "variantId": "ST04-003_p1",
+        "variantId": "ST04-003-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-003_p1.webp"
       }
     ]
@@ -15958,21 +14806,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)",
     "variants": [
       {
-        "variantId": "ST04-004-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-004_p1.webp"
-      },
-      {
         "variantId": "ST04-004",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST04-004.webp"
       },
       {
-        "variantId": "ST04-004_p1",
+        "variantId": "ST04-004-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-004_p1.webp"
       }
     ]
@@ -15989,21 +14831,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST04-005-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-005_p1.webp"
-      },
-      {
         "variantId": "ST04-005",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST04-005.webp"
       },
       {
-        "variantId": "ST04-005_p1",
+        "variantId": "ST04-005-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-005_p1.webp"
       },
       {
@@ -16026,21 +14862,15 @@
     "cardText": "【アタック時】このユニットがAP5以上なら、Lv.5以上の相手のユニット1つを選ぶ。それに3ダメージを与える。",
     "variants": [
       {
-        "variantId": "ST04-006-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-006_p1.webp"
-      },
-      {
         "variantId": "ST04-006",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST04-006.webp"
       },
       {
-        "variantId": "ST04-006_p1",
+        "variantId": "ST04-006-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-006_p1.webp"
       }
     ]
@@ -16057,21 +14887,15 @@
     "cardText": "《突破3》(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)",
     "variants": [
       {
-        "variantId": "ST04-007-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-007_p1.webp"
-      },
-      {
         "variantId": "ST04-007",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST04-007.webp"
       },
       {
-        "variantId": "ST04-007_p1",
+        "variantId": "ST04-007-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-007_p1.webp"
       },
       {
@@ -16094,21 +14918,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST04-008-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-008_p1.webp"
-      },
-      {
         "variantId": "ST04-008",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST04-008.webp"
       },
       {
-        "variantId": "ST04-008_p1",
+        "variantId": "ST04-008-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-008_p1.webp"
       }
     ]
@@ -16125,21 +14943,15 @@
     "cardText": "【セット中】【破壊時】このユニット以外の、自分のリンクユニットがいるなら、自分は1枚ドローする。",
     "variants": [
       {
-        "variantId": "ST04-009-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-009_p1.webp"
-      },
-      {
         "variantId": "ST04-009",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST04-009.webp"
       },
       {
-        "variantId": "ST04-009_p1",
+        "variantId": "ST04-009-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-009_p1.webp"
       }
     ]
@@ -16156,21 +14968,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【アタック時】相手のユニット1つを選ぶ。このバトル中、それをAP-2する。",
     "variants": [
       {
-        "variantId": "ST04-010-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-010_p1.webp"
-      },
-      {
         "variantId": "ST04-010",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST04-010.webp"
       },
       {
-        "variantId": "ST04-010_p1",
+        "variantId": "ST04-010-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-010_p1.webp"
       },
       {
@@ -16178,12 +14984,6 @@
         "rarity": "C",
         "parallel": "P2",
         "imageUrl": "/card-images/ST04-010_p2.webp"
-      },
-      {
-        "variantId": "ST04-010_p3",
-        "rarity": "P",
-        "parallel": "P3",
-        "imageUrl": "/card-images/ST04-010_p3.webp"
       },
       {
         "variantId": "ST04-010_p4",
@@ -16196,6 +14996,12 @@
         "rarity": "C",
         "parallel": "P5",
         "imageUrl": "/card-images/ST04-010_p5.webp"
+      },
+      {
+        "variantId": "ST04-010_p3",
+        "rarity": "P",
+        "parallel": "P3",
+        "imageUrl": "/card-images/ST04-010_p3.webp"
       }
     ]
   },
@@ -16211,21 +15017,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク時】このターン中、このユニットはアクティブのLv.5以下の相手のユニットをアタック先に選んでもよい。",
     "variants": [
       {
-        "variantId": "ST04-011-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-011_p1.webp"
-      },
-      {
         "variantId": "ST04-011",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST04-011.webp"
       },
       {
-        "variantId": "ST04-011_p1",
+        "variantId": "ST04-011-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-011_p1.webp"
       },
       {
@@ -16260,21 +15060,15 @@
     "cardText": "【バースト】〔地球連合〕の自分のユニットトークンがいないなら、「エールストライクガンダム」(〔地球連合〕・AP3・HP3・《ブロッカー》)のユニットトークン1つを配備する。\n【メイン】〔地球連合〕の自分のユニットトークンがいないなら、「ソードストライクガンダム」(〔地球連合〕・AP4・HP2・《ブロッカー》)か、「ランチャーストライクガンダム」(〔地球連合〕・AP2・HP4・《ブロッカー》)のユニットトークン1つを配備する。",
     "variants": [
       {
-        "variantId": "ST04-012-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-012_p1.webp"
-      },
-      {
         "variantId": "ST04-012",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST04-012.webp"
       },
       {
-        "variantId": "ST04-012_p1",
+        "variantId": "ST04-012-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-012_p1.webp"
       }
     ]
@@ -16291,21 +15085,15 @@
     "cardText": "【メイン】/【アクション】HP3以下の相手のユニット1つを選ぶ。それを持ち主の手札に戻す。\n【パイロット】「ムウ・ラ・フラガ」",
     "variants": [
       {
-        "variantId": "ST04-013-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-013_p1.webp"
-      },
-      {
         "variantId": "ST04-013",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST04-013.webp"
       },
       {
-        "variantId": "ST04-013_p1",
+        "variantId": "ST04-013-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-013_p1.webp"
       },
       {
@@ -16328,21 +15116,15 @@
     "cardText": "【メイン】/【アクション】Lv.2以下の味方のユニット1つを選ぶ。このターン中、それは《先制攻撃》を得る。\n(アタック中のこのユニットは、相手より先にダメージを与える)\n【パイロット】「ミゲル・アイマン」",
     "variants": [
       {
-        "variantId": "ST04-014-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-014_p1.webp"
-      },
-      {
         "variantId": "ST04-014",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST04-014.webp"
       },
       {
-        "variantId": "ST04-014_p1",
+        "variantId": "ST04-014-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-014_p1.webp"
       }
     ]
@@ -16359,21 +15141,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。",
     "variants": [
       {
-        "variantId": "ST04-015-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-015_p1.webp"
-      },
-      {
         "variantId": "ST04-015",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST04-015.webp"
       },
       {
-        "variantId": "ST04-015_p1",
+        "variantId": "ST04-015-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-015_p1.webp"
       },
       {
@@ -16414,21 +15190,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。",
     "variants": [
       {
-        "variantId": "ST04-016-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST04-016_p1.webp"
-      },
-      {
         "variantId": "ST04-016",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST04-016.webp"
       },
       {
-        "variantId": "ST04-016_p1",
+        "variantId": "ST04-016-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST04-016_p1.webp"
       },
       {
@@ -16508,21 +15278,15 @@
     "cardText": "【配備時】このユニット以外の、自分のユニット1つを選ぶ。それに1ダメージを与え、このターン中、それをAP+1する。\nこのユニットがダメージを受けている間、これは《制圧》を得る。",
     "variants": [
       {
-        "variantId": "ST05-001-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-001_p1.webp"
-      },
-      {
         "variantId": "ST05-001",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST05-001.webp"
       },
       {
-        "variantId": "ST05-001_p1",
+        "variantId": "ST05-001-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST05-001_p1.webp"
       },
       {
@@ -16545,21 +15309,15 @@
     "cardText": "このユニットがダメージを受けている間、これをAP+2する。",
     "variants": [
       {
-        "variantId": "ST05-002-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-002_p1.webp"
-      },
-      {
         "variantId": "ST05-002",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST05-002.webp"
       },
       {
-        "variantId": "ST05-002_p1",
+        "variantId": "ST05-002-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST05-002_p1.webp"
       },
       {
@@ -16588,21 +15346,15 @@
     "cardText": "【起動・メイン】このユニットをレストにする：自分のユニット1つを選ぶ。それに1ダメージを与え、このターン中、それをAP+1する。",
     "variants": [
       {
-        "variantId": "ST05-003-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-003_p1.webp"
-      },
-      {
         "variantId": "ST05-003",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST05-003.webp"
       },
       {
-        "variantId": "ST05-003_p1",
+        "variantId": "ST05-003-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST05-003_p1.webp"
       }
     ]
@@ -16619,21 +15371,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST05-004-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-004_p1.webp"
-      },
-      {
         "variantId": "ST05-004",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST05-004.webp"
       },
       {
-        "variantId": "ST05-004_p1",
+        "variantId": "ST05-004-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST05-004_p1.webp"
       }
     ]
@@ -16650,21 +15396,15 @@
     "cardText": "【破壊時】AP4以下の相手のユニット1つを選ぶ。それをレストにする。",
     "variants": [
       {
-        "variantId": "ST05-005-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-005_p1.webp"
-      },
-      {
         "variantId": "ST05-005",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST05-005.webp"
       },
       {
-        "variantId": "ST05-005_p1",
+        "variantId": "ST05-005-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST05-005_p1.webp"
       }
     ]
@@ -16681,21 +15421,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST05-006-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-006_p1.webp"
-      },
-      {
         "variantId": "ST05-006",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST05-006.webp"
       },
       {
-        "variantId": "ST05-006_p1",
+        "variantId": "ST05-006-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST05-006_p1.webp"
       }
     ]
@@ -16712,21 +15446,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)\n【セット時】Lv.3以下の相手のユニット1つを選ぶ。このターン中、それをAP-2する。",
     "variants": [
       {
-        "variantId": "ST05-007-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-007_p1.webp"
-      },
-      {
         "variantId": "ST05-007",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST05-007.webp"
       },
       {
-        "variantId": "ST05-007_p1",
+        "variantId": "ST05-007-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST05-007_p1.webp"
       },
       {
@@ -16749,21 +15477,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)",
     "variants": [
       {
-        "variantId": "ST05-008-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-008_p1.webp"
-      },
-      {
         "variantId": "ST05-008",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST05-008.webp"
       },
       {
-        "variantId": "ST05-008_p1",
+        "variantId": "ST05-008-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST05-008_p1.webp"
       }
     ]
@@ -16780,21 +15502,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST05-009-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-009_p1.webp"
-      },
-      {
         "variantId": "ST05-009",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST05-009.webp"
       },
       {
-        "variantId": "ST05-009_p1",
+        "variantId": "ST05-009-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST05-009_p1.webp"
       }
     ]
@@ -16811,21 +15527,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク中】自分のターン中、このユニットがバトルダメージで相手のユニットを破壊したとき、自分のトラッシュのLv.2以下の〔鉄華団〕のユニットカード1枚を選ぶ。それを手札に加える。",
     "variants": [
       {
-        "variantId": "ST05-011-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-011_p1.webp"
-      },
-      {
         "variantId": "ST05-011",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST05-011.webp"
       },
       {
-        "variantId": "ST05-011_p1",
+        "variantId": "ST05-011-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST05-011_p1.webp"
       }
     ]
@@ -16842,21 +15552,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【セット時】このユニット以外の、〔ギャラルホルン〕/〔鉄華団〕の自分のユニットが2つ以上いるなら、HP3以下の相手のユニット1つを選ぶ。それをレストにする。",
     "variants": [
       {
-        "variantId": "ST05-012-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-012_p1.webp"
-      },
-      {
         "variantId": "ST05-012",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST05-012.webp"
       },
       {
-        "variantId": "ST05-012_p1",
+        "variantId": "ST05-012-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST05-012_p1.webp"
       }
     ]
@@ -16873,21 +15577,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。",
     "variants": [
       {
-        "variantId": "ST05-015-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST05-015_p1.webp"
-      },
-      {
         "variantId": "ST05-015",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST05-015.webp"
       },
       {
-        "variantId": "ST05-015_p1",
+        "variantId": "ST05-015-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST05-015_p1.webp"
       },
       {
@@ -16910,21 +15608,15 @@
     "cardText": "【リンク時】このユニット以外の、〔クラン〕の味方のユニットがいるなら、このターン中、これは《先制攻撃》を得る。\n(アタック中のこのユニットは、相手より先にダメージを与える)",
     "variants": [
       {
-        "variantId": "ST06-001-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-001_p1.webp"
-      },
-      {
         "variantId": "ST06-001",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST06-001.webp"
       },
       {
-        "variantId": "ST06-001_p1",
+        "variantId": "ST06-001-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-001_p1.webp"
       },
       {
@@ -16947,21 +15639,15 @@
     "cardText": "【配備時】このユニット以外の、〔クラン〕の味方のユニットがいるなら、相手のユニット1つを選ぶ。それに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "ST06-002-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-002_p1.webp"
-      },
-      {
         "variantId": "ST06-002",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST06-002.webp"
       },
       {
-        "variantId": "ST06-002_p1",
+        "variantId": "ST06-002-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-002_p1.webp"
       },
       {
@@ -16990,21 +15676,15 @@
     "cardText": "【起動・メイン】《援護1》(レストにすることで、このターン中、他の味方のユニット1つをAP+(指定の数)する)",
     "variants": [
       {
-        "variantId": "ST06-003-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-003_p1.webp"
-      },
-      {
         "variantId": "ST06-003",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST06-003.webp"
       },
       {
-        "variantId": "ST06-003_p1",
+        "variantId": "ST06-003-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-003_p1.webp"
       }
     ]
@@ -17021,21 +15701,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST06-004-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-004_p1.webp"
-      },
-      {
         "variantId": "ST06-004",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST06-004.webp"
       },
       {
-        "variantId": "ST06-004_p1",
+        "variantId": "ST06-004-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-004_p1.webp"
       }
     ]
@@ -17052,21 +15726,15 @@
     "cardText": "《突破1》(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)\n【アタック時】〔クラン〕の味方のユニット1～2つを選ぶ。このターン中、それらをAP+2する。",
     "variants": [
       {
-        "variantId": "ST06-005-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-005_p1.webp"
-      },
-      {
         "variantId": "ST06-005",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST06-005.webp"
       },
       {
-        "variantId": "ST06-005_p1",
+        "variantId": "ST06-005-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-005_p1.webp"
       },
       {
@@ -17089,21 +15757,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST06-006-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-006_p1.webp"
-      },
-      {
         "variantId": "ST06-006",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST06-006.webp"
       },
       {
-        "variantId": "ST06-006_p1",
+        "variantId": "ST06-006-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-006_p1.webp"
       },
       {
@@ -17126,21 +15788,15 @@
     "cardText": "【配備時】このユニット以外の、〔クラン〕の自分のユニット1つを選ぶ。このターン中、それはアクティブのAP3以下の相手のユニットをアタック先に選んでもよい。",
     "variants": [
       {
-        "variantId": "ST06-007-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-007_p1.webp"
-      },
-      {
         "variantId": "ST06-007",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST06-007.webp"
       },
       {
-        "variantId": "ST06-007_p1",
+        "variantId": "ST06-007-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-007_p1.webp"
       }
     ]
@@ -17157,21 +15813,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST06-008-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-008_p1.webp"
-      },
-      {
         "variantId": "ST06-008",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST06-008.webp"
       },
       {
-        "variantId": "ST06-008_p1",
+        "variantId": "ST06-008-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-008_p1.webp"
       }
     ]
@@ -17188,21 +15838,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク時】自分のデッキを上から1枚見る。それが〔クラン〕のカードなら公開して手札に加えてもよい。残ったカードは下に戻す。",
     "variants": [
       {
-        "variantId": "ST06-009-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-009_p1.webp"
-      },
-      {
         "variantId": "ST06-009",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST06-009.webp"
       },
       {
-        "variantId": "ST06-009_p1",
+        "variantId": "ST06-009-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-009_p1.webp"
       },
       {
@@ -17237,21 +15881,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【リンク中】【アタック時】〔クラン〕の自分のユニットがいるなら、自分のデッキを上から1枚見て、上か下に戻す。",
     "variants": [
       {
-        "variantId": "ST06-010-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-010_p1.webp"
-      },
-      {
         "variantId": "ST06-010",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST06-010.webp"
       },
       {
-        "variantId": "ST06-010_p1",
+        "variantId": "ST06-010-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-010_p1.webp"
       },
       {
@@ -17280,21 +15918,15 @@
     "cardText": "【メイン】/【アクション】〔クラン〕の味方のユニット1～2つを選ぶ。このターン中、それらをAP+2する。\n【パイロット】「ガイア（GQ）」",
     "variants": [
       {
-        "variantId": "ST06-011-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-011_p1.webp"
-      },
-      {
         "variantId": "ST06-011",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST06-011.webp"
       },
       {
-        "variantId": "ST06-011_p1",
+        "variantId": "ST06-011-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-011_p1.webp"
       }
     ]
@@ -17311,21 +15943,15 @@
     "cardText": "【メイン】自分のデッキを上から3枚見て、その中の〔クラン〕の、ユニットカード1枚/パイロットカード1枚を公開して手札に加えてもよい。残ったカードは無作為に下に戻す。",
     "variants": [
       {
-        "variantId": "ST06-012-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-012_p1.webp"
-      },
-      {
         "variantId": "ST06-012",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST06-012.webp"
       },
       {
-        "variantId": "ST06-012_p1",
+        "variantId": "ST06-012-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-012_p1.webp"
       }
     ]
@@ -17342,21 +15968,15 @@
     "cardText": "【アクション】〔クラン〕の味方のユニット1～2つを選ぶ。このターン中、それらはLv.2以下の相手のユニットからバトルダメージを受けない。\n【パイロット】「オルテガ（GQ）」",
     "variants": [
       {
-        "variantId": "ST06-013-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-013_p1.webp"
-      },
-      {
         "variantId": "ST06-013",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST06-013.webp"
       },
       {
-        "variantId": "ST06-013_p1",
+        "variantId": "ST06-013-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-013_p1.webp"
       }
     ]
@@ -17373,21 +15993,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。",
     "variants": [
       {
-        "variantId": "ST06-014-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-014_p1.webp"
-      },
-      {
         "variantId": "ST06-014",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST06-014.webp"
       },
       {
-        "variantId": "ST06-014_p1",
+        "variantId": "ST06-014-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-014_p1.webp"
       }
     ]
@@ -17404,21 +16018,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。",
     "variants": [
       {
-        "variantId": "ST06-015-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST06-015_p1.webp"
-      },
-      {
         "variantId": "ST06-015",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST06-015.webp"
       },
       {
-        "variantId": "ST06-015_p1",
+        "variantId": "ST06-015-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST06-015_p1.webp"
       }
     ]
@@ -17435,21 +16043,15 @@
     "cardText": "自分のターン終了時、自分のトラッシュに〔CB〕のカードが7枚以上あるなら、自分のリソース1つを選ぶ。それをアクティブにする。\n【セット時】自分のデッキを上から2枚、自分のトラッシュに置く。この効果で〔CB〕のカードを置いたなら、自分は1枚ドローする。",
     "variants": [
       {
-        "variantId": "ST07-001-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-001_p1.webp"
-      },
-      {
         "variantId": "ST07-001",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST07-001.webp"
       },
       {
-        "variantId": "ST07-001_p1",
+        "variantId": "ST07-001-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-001_p1.webp"
       }
     ]
@@ -17466,21 +16068,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST07-002-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-002_p1.webp"
-      },
-      {
         "variantId": "ST07-002",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST07-002.webp"
       },
       {
-        "variantId": "ST07-002_p1",
+        "variantId": "ST07-002-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-002_p1.webp"
       },
       {
@@ -17503,21 +16099,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST07-003-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-003_p1.webp"
-      },
-      {
         "variantId": "ST07-003",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST07-003.webp"
       },
       {
-        "variantId": "ST07-003_p1",
+        "variantId": "ST07-003-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-003_p1.webp"
       }
     ]
@@ -17534,21 +16124,15 @@
     "cardText": "〔CB〕の自分のパイロットがいる間、このユニットは《ブロッカー》を得る。\n(レストにすることでアタック先をこのユニットにする)",
     "variants": [
       {
-        "variantId": "ST07-004-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-004_p1.webp"
-      },
-      {
         "variantId": "ST07-004",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST07-004.webp"
       },
       {
-        "variantId": "ST07-004_p1",
+        "variantId": "ST07-004-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-004_p1.webp"
       }
     ]
@@ -17565,21 +16149,15 @@
     "cardText": "自分のターン中、このユニットがバトルダメージで相手のユニットを破壊したとき、これを2回復する。\n【リンク中】このユニットをAP+2する。",
     "variants": [
       {
-        "variantId": "ST07-005-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-005_p1.webp"
-      },
-      {
         "variantId": "ST07-005",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST07-005.webp"
       },
       {
-        "variantId": "ST07-005_p1",
+        "variantId": "ST07-005-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-005_p1.webp"
       },
       {
@@ -17602,21 +16180,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST07-006-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-006_p1.webp"
-      },
-      {
         "variantId": "ST07-006",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST07-006.webp"
       },
       {
-        "variantId": "ST07-006_p1",
+        "variantId": "ST07-006-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-006_p1.webp"
       }
     ]
@@ -17633,21 +16205,15 @@
     "cardText": "自分のターン中、〔CB〕の自分のパイロットがいる間、このユニットをAP+2する。",
     "variants": [
       {
-        "variantId": "ST07-007-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-007_p1.webp"
-      },
-      {
         "variantId": "ST07-007",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST07-007.webp"
       },
       {
-        "variantId": "ST07-007_p1",
+        "variantId": "ST07-007-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-007_p1.webp"
       }
     ]
@@ -17664,21 +16230,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST07-008-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-008_p1.webp"
-      },
-      {
         "variantId": "ST07-008",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST07-008.webp"
       },
       {
-        "variantId": "ST07-008_p1",
+        "variantId": "ST07-008-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-008_p1.webp"
       }
     ]
@@ -17695,21 +16255,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【アタック時】このターン中、このユニットをAP+1する。自分のトラッシュに〔CB〕のカードが7枚以上あるなら、かわりに〔CB〕の自分のユニットすべてをAP+1する。",
     "variants": [
       {
-        "variantId": "ST07-009-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-009_p1.webp"
-      },
-      {
         "variantId": "ST07-009",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST07-009.webp"
       },
       {
-        "variantId": "ST07-009_p1",
+        "variantId": "ST07-009-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-009_p1.webp"
       },
       {
@@ -17732,21 +16286,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【破壊時】相手のターンで、このユニットが〔CB〕なら、自分は1枚ドローする。",
     "variants": [
       {
-        "variantId": "ST07-010-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-010_p1.webp"
-      },
-      {
         "variantId": "ST07-010",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST07-010.webp"
       },
       {
-        "variantId": "ST07-010_p1",
+        "variantId": "ST07-010-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-010_p1.webp"
       },
       {
@@ -17775,21 +16323,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【セット時】このユニットが〔CB〕なら、このターン中、これはアクティブの、これのLv.以下の相手のユニットをアタック先に選んでもよい。",
     "variants": [
       {
-        "variantId": "ST07-011-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-011_p1.webp"
-      },
-      {
         "variantId": "ST07-011",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST07-011.webp"
       },
       {
-        "variantId": "ST07-011_p1",
+        "variantId": "ST07-011-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-011_p1.webp"
       },
       {
@@ -17812,21 +16354,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n自分のターン中、〔CB〕の自分のリンクユニットがいる間、このユニットはAP3以下の相手のユニットからバトルダメージを受けない。",
     "variants": [
       {
-        "variantId": "ST07-012-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-012_p1.webp"
-      },
-      {
         "variantId": "ST07-012",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST07-012.webp"
       },
       {
-        "variantId": "ST07-012_p1",
+        "variantId": "ST07-012-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-012_p1.webp"
       }
     ]
@@ -17843,21 +16379,15 @@
     "cardText": "【バースト】自分は1枚ドローする。\n【アクション】レストの〔CB〕の味方のユニット1つを選ぶ。バトルしている相手のユニットのアタック先をそれにする。",
     "variants": [
       {
-        "variantId": "ST07-013-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-013_p1.webp"
-      },
-      {
         "variantId": "ST07-013",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST07-013.webp"
       },
       {
-        "variantId": "ST07-013_p1",
+        "variantId": "ST07-013-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-013_p1.webp"
       }
     ]
@@ -17874,21 +16404,15 @@
     "cardText": "【メイン】自分のデッキを上から3枚見て、その中の〔CB〕の、ユニットカード1枚/パイロットカード1枚を公開して手札に加えてもよい。残ったカードは無作為に下に戻す。",
     "variants": [
       {
-        "variantId": "ST07-014-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-014_p1.webp"
-      },
-      {
         "variantId": "ST07-014",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST07-014.webp"
       },
       {
-        "variantId": "ST07-014_p1",
+        "variantId": "ST07-014-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-014_p1.webp"
       },
       {
@@ -17917,21 +16441,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。",
     "variants": [
       {
-        "variantId": "ST07-015-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST07-015_p1.webp"
-      },
-      {
         "variantId": "ST07-015",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST07-015.webp"
       },
       {
-        "variantId": "ST07-015_p1",
+        "variantId": "ST07-015-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST07-015_p1.webp"
       }
     ]
@@ -17948,21 +16466,15 @@
     "cardText": "Lv.6以上の自分のユニットがいない間、相手のユニット1つにつき、手札のこのカードをLv.-1、コスト-1する。\n【セット時】最もLv.が高い相手のユニット1つを選ぶ。それに3ダメージを与える。",
     "variants": [
       {
-        "variantId": "ST08-001-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-001_p1.webp"
-      },
-      {
         "variantId": "ST08-001",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST08-001.webp"
       },
       {
-        "variantId": "ST08-001_p1",
+        "variantId": "ST08-001-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-001_p1.webp"
       }
     ]
@@ -17979,21 +16491,15 @@
     "cardText": "【配備時】相手のユニット1つを選ぶ。それに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "ST08-002-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-002_p1.webp"
-      },
-      {
         "variantId": "ST08-002",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST08-002.webp"
       },
       {
-        "variantId": "ST08-002_p1",
+        "variantId": "ST08-002-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-002_p1.webp"
       },
       {
@@ -18016,21 +16522,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST08-003-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-003_p1.webp"
-      },
-      {
         "variantId": "ST08-003",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST08-003.webp"
       },
       {
-        "variantId": "ST08-003_p1",
+        "variantId": "ST08-003-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-003_p1.webp"
       }
     ]
@@ -18047,21 +16547,15 @@
     "cardText": "【アタック時】相手のユニットにアタックしているなら、相手のユニット1つを選ぶ。それに1ダメージを与える。",
     "variants": [
       {
-        "variantId": "ST08-004-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-004_p1.webp"
-      },
-      {
         "variantId": "ST08-004",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST08-004.webp"
       },
       {
-        "variantId": "ST08-004_p1",
+        "variantId": "ST08-004-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-004_p1.webp"
       }
     ]
@@ -18078,21 +16572,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST08-005-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-005_p1.webp"
-      },
-      {
         "variantId": "ST08-005",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST08-005.webp"
       },
       {
-        "variantId": "ST08-005_p1",
+        "variantId": "ST08-005-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-005_p1.webp"
       }
     ]
@@ -18109,21 +16597,15 @@
     "cardText": "【セット中】【アタック時】【ターン1回】相手プレイヤーにアタックしているなら、自分の手札の〔地球連邦〕のユニットカード1枚を公開し、デッキの下に戻す。そうしたなら、自分は2枚ドローする。",
     "variants": [
       {
-        "variantId": "ST08-006-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-006_p1.webp"
-      },
-      {
         "variantId": "ST08-006",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST08-006.webp"
       },
       {
-        "variantId": "ST08-006_p1",
+        "variantId": "ST08-006-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-006_p1.webp"
       }
     ]
@@ -18140,21 +16622,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST08-007-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-007_p1.webp"
-      },
-      {
         "variantId": "ST08-007",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST08-007.webp"
       },
       {
-        "variantId": "ST08-007_p1",
+        "variantId": "ST08-007-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-007_p1.webp"
       }
     ]
@@ -18171,21 +16647,15 @@
     "cardText": "相手のユニットが3つ以上いる間、このユニットは《ブロッカー》を得る。\n(レストにすることでアタック先をこのユニットにする)",
     "variants": [
       {
-        "variantId": "ST08-008-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-008_p1.webp"
-      },
-      {
         "variantId": "ST08-008",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST08-008.webp"
       },
       {
-        "variantId": "ST08-008_p1",
+        "variantId": "ST08-008-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-008_p1.webp"
       }
     ]
@@ -18202,21 +16672,15 @@
     "cardText": "【配備時】レストのLv.2以下の相手のユニット1つを選ぶ。それは次の相手のターンのスタートフェイズでアクティブにならない。",
     "variants": [
       {
-        "variantId": "ST08-009-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-009_p1.webp"
-      },
-      {
         "variantId": "ST08-009",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST08-009.webp"
       },
       {
-        "variantId": "ST08-009_p1",
+        "variantId": "ST08-009-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-009_p1.webp"
       }
     ]
@@ -18233,21 +16697,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【セット時】このユニットが〔マフティー〕なら、〔マフティー〕の自分のユニット1つを選ぶ。このターン中、それはダメージを受けているアクティブの相手のユニットをアタック先に選んでもよい。",
     "variants": [
       {
-        "variantId": "ST08-010-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-010_p1.webp"
-      },
-      {
         "variantId": "ST08-010",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST08-010.webp"
       },
       {
-        "variantId": "ST08-010_p1",
+        "variantId": "ST08-010-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-010_p1.webp"
       },
       {
@@ -18270,21 +16728,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n自分が効果でドローしたとき、このユニットが青なら、このターン中、これは《高機動》を得る。",
     "variants": [
       {
-        "variantId": "ST08-011-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-011_p1.webp"
-      },
-      {
         "variantId": "ST08-011",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST08-011.webp"
       },
       {
-        "variantId": "ST08-011_p1",
+        "variantId": "ST08-011-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-011_p1.webp"
       }
     ]
@@ -18301,21 +16753,15 @@
     "cardText": "【メイン】味方のリンクユニット1つを選ぶ。このターン中、それは《突破1》を得る。\n(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)\n【パイロット】「ガウマン・ノビル」",
     "variants": [
       {
-        "variantId": "ST08-012-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-012_p1.webp"
-      },
-      {
         "variantId": "ST08-012",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST08-012.webp"
       },
       {
-        "variantId": "ST08-012_p1",
+        "variantId": "ST08-012-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-012_p1.webp"
       }
     ]
@@ -18332,21 +16778,15 @@
     "cardText": "【メイン】/【アクション】相手のユニット1つを選ぶ。それに1ダメージを与える。〔マフティー〕の味方のリンクユニットがいるなら、かわりに2ダメージを与える。",
     "variants": [
       {
-        "variantId": "ST08-013-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-013_p1.webp"
-      },
-      {
         "variantId": "ST08-013",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST08-013.webp"
       },
       {
-        "variantId": "ST08-013_p1",
+        "variantId": "ST08-013-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-013_p1.webp"
       }
     ]
@@ -18363,21 +16803,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。その後、自分のユニット1つを選ぶ。このターン中、それをAP+2する。",
     "variants": [
       {
-        "variantId": "ST08-014-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-014_p1.webp"
-      },
-      {
         "variantId": "ST08-014",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST08-014.webp"
       },
       {
-        "variantId": "ST08-014_p1",
+        "variantId": "ST08-014-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-014_p1.webp"
       }
     ]
@@ -18394,21 +16828,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。",
     "variants": [
       {
-        "variantId": "ST08-015-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST08-015_p1.webp"
-      },
-      {
         "variantId": "ST08-015",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST08-015.webp"
       },
       {
-        "variantId": "ST08-015_p1",
+        "variantId": "ST08-015-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST08-015_p1.webp"
       }
     ]
@@ -18425,21 +16853,15 @@
     "cardText": "【起動・メイン】②,このユニットを持ち主のデッキの下に戻す：自分のトラッシュのLv.4以上のカード名に「インパルスガンダム」を含むユニットカード1つを選ぶ。それを配備する。",
     "variants": [
       {
-        "variantId": "ST09-001-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST09-001_p1.webp"
-      },
-      {
         "variantId": "ST09-001",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST09-001.webp"
       },
       {
-        "variantId": "ST09-001_p1",
+        "variantId": "ST09-001-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST09-001_p1.webp"
       }
     ]
@@ -18456,21 +16878,15 @@
     "cardText": "【破壊時】自分のトラッシュのカード名に「フォースインパルスガンダム」を含まない、〔ミネルバ隊〕のユニットカード1枚を選ぶ。それを手札に加える。",
     "variants": [
       {
-        "variantId": "ST09-002-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST09-002_p1.webp"
-      },
-      {
         "variantId": "ST09-002",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST09-002.webp"
       },
       {
-        "variantId": "ST09-002_p1",
+        "variantId": "ST09-002-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST09-002_p1.webp"
       }
     ]
@@ -18487,21 +16903,15 @@
     "cardText": "《突破3》(アタックで相手のユニットを破壊したとき、その相手のシールドエリアの先頭のカード1枚に指定の数ダメージを与える)\n【リンク時】自分のトラッシュに紫のカードが5枚以上あるなら、AP5以下のユニットすべてに2ダメージを与える。",
     "variants": [
       {
-        "variantId": "ST09-003-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST09-003_p1.webp"
-      },
-      {
         "variantId": "ST09-003",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST09-003.webp"
       },
       {
-        "variantId": "ST09-003_p1",
+        "variantId": "ST09-003-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST09-003_p1.webp"
       }
     ]
@@ -18518,21 +16928,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)\n味方のベースがある間、このユニットは《制圧》を得る。",
     "variants": [
       {
-        "variantId": "ST09-004-LR+",
-        "rarity": "LR",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST09-004_p1.webp"
-      },
-      {
         "variantId": "ST09-004",
         "rarity": "LR",
         "parallel": "",
         "imageUrl": "/card-images/ST09-004.webp"
       },
       {
-        "variantId": "ST09-004_p1",
+        "variantId": "ST09-004-LR+",
         "rarity": "LR",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST09-004_p1.webp"
       }
     ]
@@ -18549,21 +16953,15 @@
     "cardText": "-",
     "variants": [
       {
-        "variantId": "ST09-005-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST09-005_p1.webp"
-      },
-      {
         "variantId": "ST09-005",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST09-005.webp"
       },
       {
-        "variantId": "ST09-005_p1",
+        "variantId": "ST09-005-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST09-005_p1.webp"
       }
     ]
@@ -18580,21 +16978,15 @@
     "cardText": "【配備時】このユニットをトラッシュから配備したなら、Lv.3以下の相手のユニット1つを選ぶ。それを破壊する。",
     "variants": [
       {
-        "variantId": "ST09-006-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST09-006_p1.webp"
-      },
-      {
         "variantId": "ST09-006",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST09-006.webp"
       },
       {
-        "variantId": "ST09-006_p1",
+        "variantId": "ST09-006-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST09-006_p1.webp"
       }
     ]
@@ -18611,21 +17003,15 @@
     "cardText": "《ブロッカー》(レストにすることでアタック先をこのユニットにする)",
     "variants": [
       {
-        "variantId": "ST09-007-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST09-007_p1.webp"
-      },
-      {
         "variantId": "ST09-007",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST09-007.webp"
       },
       {
-        "variantId": "ST09-007_p1",
+        "variantId": "ST09-007-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST09-007_p1.webp"
       }
     ]
@@ -18642,21 +17028,15 @@
     "cardText": "【バースト】このカードを手札に加える。\n【アタック時】このユニットが〔ミネルバ隊〕なら、自分のリソース1つを選ぶ。それをアクティブにする。",
     "variants": [
       {
-        "variantId": "ST09-008-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST09-008_p1.webp"
-      },
-      {
         "variantId": "ST09-008",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST09-008.webp"
       },
       {
-        "variantId": "ST09-008_p1",
+        "variantId": "ST09-008-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST09-008_p1.webp"
       }
     ]
@@ -18673,21 +17053,15 @@
     "cardText": "【メイン】/【アクション】アクティブのAP4以下の相手のユニット1つを選ぶ。それを破壊する。",
     "variants": [
       {
-        "variantId": "ST09-009-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST09-009_p1.webp"
-      },
-      {
         "variantId": "ST09-009",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST09-009.webp"
       },
       {
-        "variantId": "ST09-009_p1",
+        "variantId": "ST09-009-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST09-009_p1.webp"
       }
     ]
@@ -18704,21 +17078,15 @@
     "cardText": "【バースト】このカードを配備する。\n【配備時】自分のシールド1つを手札に加える。その後、自分のターンなら、自分のデッキを上から2枚見て、その中のカード1枚を上に戻す。残ったカードは自分のトラッシュに置く。",
     "variants": [
       {
-        "variantId": "ST09-010-C+",
-        "rarity": "C",
-        "parallel": "+",
-        "imageUrl": "/card-images/ST09-010_p1.webp"
-      },
-      {
         "variantId": "ST09-010",
         "rarity": "C",
         "parallel": "",
         "imageUrl": "/card-images/ST09-010.webp"
       },
       {
-        "variantId": "ST09-010_p1",
+        "variantId": "ST09-010-C+",
         "rarity": "C",
-        "parallel": "P1",
+        "parallel": "+",
         "imageUrl": "/card-images/ST09-010_p1.webp"
       }
     ]
