@@ -137,14 +137,20 @@ export default function App() {
 
   const fillCard = cardById[DEFAULT_RESOURCE_ID] ?? null;
 
+  const RARITY_ORDER = ['C', 'U', 'R', 'LR', 'P'];
+
   function writeExport(id: string) {
     try {
       const raw = localStorage.getItem('gcg_exports');
-      const all: Record<string, { name: string; savedAt: number; cards: { name: string; count: number }[] }> = raw ? JSON.parse(raw) : {};
+      const all: Record<string, unknown> = raw ? JSON.parse(raw) : {};
       all[id] = {
         name: activeDeck.name,
         savedAt: Date.now(),
-        cards: mainDeckCards.map(({ card, count }) => ({ name: card.cardName, count })),
+        cards: mainDeckCards.map(({ card, count }) => {
+          const rarities = [...new Set(card.variants.map(v => v.rarity))]
+            .sort((a, b) => RARITY_ORDER.indexOf(a) - RARITY_ORDER.indexOf(b));
+          return { name: card.cardName, count, rarities, defaultRarity: rarities[0] ?? '' };
+        }),
       };
       localStorage.setItem('gcg_exports', JSON.stringify(all));
     } catch (_) {}
