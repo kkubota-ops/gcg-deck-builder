@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Card images served directly from official site
+public/card-images/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
