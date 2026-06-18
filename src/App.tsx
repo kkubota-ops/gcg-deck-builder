@@ -2,6 +2,8 @@ import { useState, useMemo } from 'react';
 import type { Card, SearchFilters } from './types';
 import { SAMPLE_CARDS } from './data/sampleCards';
 import { useDeck, EX_TYPES, RESOURCE_TYPES, DEFAULT_RESOURCE_ID, MAX_EX_RESOURCE_TYPE } from './hooks/useDeck';
+import { useAuth } from './hooks/useAuth';
+import { usePostedDecks } from './hooks/usePostedDecks';
 import SearchFilter from './components/SearchFilter';
 import CardItem from './components/CardItem';
 import CardModal from './components/CardModal';
@@ -9,6 +11,10 @@ import DeckBar from './components/DeckBar';
 import DeckSelector from './components/DeckSelector';
 import DeckTab from './components/DeckTab';
 import SaveModal from './components/SaveModal';
+import AuthButton from './components/AuthButton';
+import CommunityTab from './components/CommunityTab';
+import PostDeckModal from './components/PostDeckModal'
+import NicknameModal from './components/NicknameModal';
 
 const DEFAULT_FILTERS: SearchFilters = {
   query: '',
@@ -30,13 +36,18 @@ const colorMap: Record<string, string> = Object.fromEntries(
   SAMPLE_CARDS.map((c) => [c.cardId, c.color])
 );
 
-type Tab = 'search' | 'deck';
+type Tab = 'search' | 'deck' | 'community';
 
 export default function App() {
   const [tab, setTab] = useState<Tab>('search');
   const [filters, setFilters] = useState<SearchFilters>(DEFAULT_FILTERS);
   const [modalCard, setModalCard] = useState<Card | null>(null);
   const [showSaveModal, setShowSaveModal] = useState(false);
+  const [showPostModal, setShowPostModal] = useState(false);
+  const [showNicknameModal, setShowNicknameModal] = useState(false);
+
+  const { user, loading: authLoading, displayName, signInWithGoogle, signOut, updateDisplayName } = useAuth();
+  const { decks: postedDecks, loading: communityLoading, postDeck, toggleLike, deletePostedDeck } = usePostedDecks(user?.id ?? null);
 
   const {
     decks,
@@ -64,6 +75,7 @@ export default function App() {
     renameDeck,
     deleteDeck,
     canCreateDeck,
+    importDeck,
   } = useDeck();
 
   const filtered = useMemo(() => {
@@ -87,7 +99,6 @@ export default function App() {
     return activeDeck.cards[card.cardId] ?? 0;
   }
 
-  // デッキタブ用: 各デッキのカード一覧
   const mainDeckCards = useMemo(() =>
     Object.entries(activeDeck.cards)
       .map(([id, count]) => ({ card: cardById[id], count }))
@@ -178,31 +189,66 @@ export default function App() {
     setShowSaveModal(true);
   }
 
+  // デッキの色一覧を取得
+  const activeDeckColors = useMemo(() => {
+    const colorSet = new Set<string>();
+    Object.keys(activeDeck.cards).forEach((id) => {
+      const color = colorMap[id];
+      if (color) colorSet.add(color);
+    });
+    return Array.from(colorSet);
+  }, [activeDeck.cards]);
+
+  async function handlePostDeck(name: string): Promise<string | null> {
+    if (totalCards === 0) return 'デッキにカードが入っていません';
+    if (!name.trim()) return 'デッキ名を入力してください';
+    return postDeck({
+      name: name.trim(),
+      cards: activeDeck.cards,
+      colors: activeDeckColors,
+      description: '',
+    });
+  }
+
   return (
     <div className="flex flex-col min-h-svh max-w-lg mx-auto">
       {/* ヘッダー */}
       <header className="bg-[#0f0f0f] border-b border-gray-800 px-4 py-3">
-        <h1 className="text-base font-bold text-white tracking-wide">
-          GCG デッキビルダー
-        </h1>
-        <p className="text-[10px] text-gray-600 mt-0.5">
-          非公式ファンツール ／ カード画像・データ:{' '}
-          <a href="https://www.gundam-gcg.com/jp/cards/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-400">
-            GUNDAM CARD GAME 公式サイト
-          </a>
-        </p>
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-base font-bold text-white tracking-wide">
+              GCG デッキビルダー
+            </h1>
+            <p className="text-[10px] text-gray-600 mt-0.5">
+              非公式ファンツール ／ カード画像・データ:{' '}
+              <a href="https://www.gundam-gcg.com/jp/cards/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-400">
+                GUNDAM CARD GAME 公式サイト
+              </a>
+            </p>
+          </div>
+          <AuthButton
+            user={user}
+            loading={authLoading}
+            displayName={displayName}
+            onSignIn={signInWithGoogle}
+            onSignOut={signOut}
+            onEditNickname={() => setShowNicknameModal(true)}
+          />
+        </div>
       </header>
 
       {/* デッキ選択 */}
-      <DeckSelector
-        decks={decks}
-        activeDeckId={activeDeckId}
-        canCreate={canCreateDeck}
-        onSelect={setActiveDeckId}
-        onCreate={createDeck}
-        onRename={renameDeck}
-        onDelete={deleteDeck}
-      />
+      {tab !== 'community' && (
+        <DeckSelector
+          decks={decks}
+          activeDeckId={activeDeckId}
+          canCreate={canCreateDeck}
+          onSelect={setActiveDeckId}
+          onCreate={createDeck}
+          onRename={renameDeck}
+          onDelete={deleteDeck}
+        />
+      )}
 
       {/* タブ */}
       <div className="flex bg-[#1a1a1a] border-b border-gray-800">
@@ -225,6 +271,16 @@ export default function App() {
           }`}
         >
           デッキ {totalCards > 0 && <span className="text-xs ml-1 opacity-70">({totalCards})</span>}
+        </button>
+        <button
+          onClick={() => setTab('community')}
+          className={`flex-1 py-2.5 text-sm font-medium transition-colors ${
+            tab === 'community'
+              ? 'text-white border-b-2 border-blue-500'
+              : 'text-gray-500 hover:text-gray-300'
+          }`}
+        >
+          みんなのデッキ
         </button>
       </div>
 
@@ -257,40 +313,69 @@ export default function App() {
 
       {/* デッキタブ */}
       {tab === 'deck' && (
-        <DeckTab
-          mainCards={mainDeckCards}
-          exCards={exDeckCards}
-          resourceCards={resourceDeckCards}
-          resourceFill={resourceFill}
-          fillCard={fillCard}
-          totalEx={totalEx}
-          exDeckSize={exDeckSize}
-          totalResource={totalResource}
-          resourceDeckSize={resourceDeckSize}
-          exResourceTotal={exResourceTotal}
-          exResourceTypeMax={MAX_EX_RESOURCE_TYPE}
-          totalMain={totalCards}
-          mainDeckSize={totalDeckSize}
-          savedId={savedId}
-          selectedVariants={selectedVariants}
-          onSaveClick={handleSaveClick}
-          onAdd={(card) => handleAdd(card)}
-          onRemove={(card) => handleRemove(card)}
-          onCardClick={(card) => setModalCard(card)}
+        <>
+          <DeckTab
+            mainCards={mainDeckCards}
+            exCards={exDeckCards}
+            resourceCards={resourceDeckCards}
+            resourceFill={resourceFill}
+            fillCard={fillCard}
+            totalEx={totalEx}
+            exDeckSize={exDeckSize}
+            totalResource={totalResource}
+            resourceDeckSize={resourceDeckSize}
+            exResourceTotal={exResourceTotal}
+            exResourceTypeMax={MAX_EX_RESOURCE_TYPE}
+            totalMain={totalCards}
+            mainDeckSize={totalDeckSize}
+            savedId={savedId}
+            selectedVariants={selectedVariants}
+            onSaveClick={handleSaveClick}
+            onAdd={(card) => handleAdd(card)}
+            onRemove={(card) => handleRemove(card)}
+            onCardClick={(card) => setModalCard(card)}
+          />
+          {/* 投稿ボタン */}
+          {user && totalCards > 0 && (
+            <div className="px-3 pb-20 pt-2 bg-[#111]">
+              <button
+                onClick={() => setShowPostModal(true)}
+                className="w-full text-sm text-white bg-green-700 hover:bg-green-600 rounded py-2.5 font-medium"
+              >
+                このデッキをコミュニティに投稿する
+              </button>
+            </div>
+          )}
+        </>
+      )}
+
+      {/* みんなのデッキタブ */}
+      {tab === 'community' && (
+        <CommunityTab
+          decks={postedDecks}
+          loading={communityLoading}
+          user={user}
+          onLike={toggleLike}
+          onDelete={deletePostedDeck}
+          onSignIn={signInWithGoogle}
+          onImport={(name, cards) => { const err = importDeck(name, cards); if (!err) setTab('deck'); return err; }}
+          canImport={canCreateDeck}
         />
       )}
 
-      {/* デッキバー */}
-      <DeckBar
-        totalMain={totalCards}
-        maxMain={totalDeckSize}
-        totalEx={totalEx}
-        maxEx={exDeckSize}
-        totalResource={totalResource}
-        resourceDeckSize={resourceDeckSize}
-        resourceFill={resourceFill}
-        onTap={() => setTab('deck')}
-      />
+      {/* デッキバー（コミュニティタブでは非表示） */}
+      {tab !== 'community' && (
+        <DeckBar
+          totalMain={totalCards}
+          maxMain={totalDeckSize}
+          totalEx={totalEx}
+          maxEx={exDeckSize}
+          totalResource={totalResource}
+          resourceDeckSize={resourceDeckSize}
+          resourceFill={resourceFill}
+          onTap={() => setTab('deck')}
+        />
+      )}
 
       {/* モーダル */}
       <CardModal
@@ -318,6 +403,24 @@ export default function App() {
           selectedVariants={selectedVariants}
           onReissue={() => { const newId = saveDeck(); writeExport(newId); }}
           onClose={() => setShowSaveModal(false)}
+        />
+      )}
+
+      {/* ニックネームモーダル */}
+      {showNicknameModal && user && (
+        <NicknameModal
+          currentName={displayName ?? ''}
+          onSave={updateDisplayName}
+          onClose={() => setShowNicknameModal(false)}
+        />
+      )}
+
+      {/* 投稿モーダル */}
+      {showPostModal && (
+        <PostDeckModal
+          deckName={activeDeck.name}
+          onPost={handlePostDeck}
+          onClose={() => setShowPostModal(false)}
         />
       )}
     </div>

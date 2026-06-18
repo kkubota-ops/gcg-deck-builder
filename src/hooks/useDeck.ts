@@ -137,6 +137,15 @@ export function useDeck() {
     if (activeDeckId === id) setActiveDeckId(next[0].id);
   }
 
+  function importDeck(name: string, cards: Record<string, number>): string | null {
+    if (decks.length >= MAX_DECKS) return `デッキは最大${MAX_DECKS}個までです`;
+    const d = makeDeck(name);
+    d.cards = cards;
+    setDecks((prev) => [...prev, d]);
+    setActiveDeckId(d.id);
+    return null;
+  }
+
   function saveDeck(): string {
     const savedId = uuidv4();
     update(activeDeck.id, { savedId });
@@ -180,5 +189,6 @@ export function useDeck() {
     renameDeck,
     deleteDeck,
     canCreateDeck: decks.length < MAX_DECKS,
+    importDeck,
   };
 }
