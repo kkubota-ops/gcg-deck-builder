@@ -87,15 +87,49 @@ export default function PurchaseTab({
             >{STATUS_LABELS[s]}</button>
           ))}
         </div>
-        {storeList.length > 0 && (
-          <div className="flex gap-1 flex-wrap">
-            <button onClick={() => setStoreFilter('all')}
-              className={`text-xs px-2.5 py-1 rounded-full ${storeFilter === 'all' ? 'bg-blue-600 text-white' : 'bg-gray-800 text-gray-400'}`}
-            >全店舗</button>
+        <div className="flex gap-1 flex-wrap items-center">
+          {storeList.length > 0 && (
+            <>
+              <button onClick={() => setStoreFilter('all')}
+                className={`text-xs px-2.5 py-1 rounded-full ${storeFilter === 'all' ? 'bg-blue-600 text-white' : 'bg-gray-800 text-gray-400'}`}
+              >全店舗</button>
+              {storeList.map(s => (
+                <button key={s} onClick={() => setStoreFilter(s)}
+                  className={`text-xs px-2.5 py-1 rounded-full ${storeFilter === s ? 'bg-blue-600 text-white' : 'bg-gray-800 text-gray-400'}`}
+                >{s}</button>
+              ))}
+            </>
+          )}
+          <button
+            onClick={() => setShowStoreManager(v => !v)}
+            className="text-xs px-2.5 py-1 rounded-full ml-auto shrink-0 bg-gray-700 hover:bg-gray-600 text-gray-300"
+          >
+            {showStoreManager ? '閉じる' : '店舗を追加する'}
+          </button>
+        </div>
+        {showStoreManager && (
+          <div className="mt-2 space-y-2">
+            <div className="flex gap-2">
+              <input
+                value={newStore}
+                onChange={e => setNewStore(e.target.value)}
+                onKeyDown={e => { if (e.key === 'Enter' && newStore.trim()) { onAddStore(newStore.trim()); setNewStore('') } }}
+                placeholder="店舗名"
+                className="flex-1 text-xs bg-gray-800 border border-gray-700 rounded px-2 py-1.5 text-white placeholder-gray-600"
+              />
+              <button
+                onClick={() => { if (newStore.trim()) { onAddStore(newStore.trim()); setNewStore('') } }}
+                className="text-xs px-3 py-1.5 bg-gray-700 hover:bg-gray-600 text-white rounded"
+              >追加</button>
+            </div>
+            {storeList.length === 0 && (
+              <p className="text-xs text-gray-600">店舗を登録すると購入先を管理できます</p>
+            )}
             {storeList.map(s => (
-              <button key={s} onClick={() => setStoreFilter(s)}
-                className={`text-xs px-2.5 py-1 rounded-full ${storeFilter === s ? 'bg-blue-600 text-white' : 'bg-gray-800 text-gray-400'}`}
-              >{s}</button>
+              <div key={s} className="flex items-center justify-between py-1">
+                <span className="text-xs text-gray-300">{s}</span>
+                <button onClick={() => onRemoveStore(s)} className="text-xs text-gray-600 hover:text-red-400">削除</button>
+              </div>
             ))}
           </div>
         )}
@@ -206,41 +240,6 @@ export default function PurchaseTab({
         </div>
       )}
 
-      {/* 店舗管理 */}
-      <div className="px-3 pt-4 pb-2 border-t border-gray-800 mt-2">
-        <button
-          onClick={() => setShowStoreManager(v => !v)}
-          className="text-xs text-gray-600 hover:text-gray-400 underline"
-        >
-          {showStoreManager ? '店舗管理を閉じる' : '店舗を管理する'}
-        </button>
-        {showStoreManager && (
-          <div className="mt-3 space-y-2">
-            <div className="flex gap-2">
-              <input
-                value={newStore}
-                onChange={e => setNewStore(e.target.value)}
-                onKeyDown={e => { if (e.key === 'Enter' && newStore.trim()) { onAddStore(newStore.trim()); setNewStore('') } }}
-                placeholder="店舗名"
-                className="flex-1 text-xs bg-gray-800 border border-gray-700 rounded px-2 py-1.5 text-white placeholder-gray-600"
-              />
-              <button
-                onClick={() => { if (newStore.trim()) { onAddStore(newStore.trim()); setNewStore('') } }}
-                className="text-xs px-3 py-1.5 bg-gray-700 hover:bg-gray-600 text-white rounded"
-              >追加</button>
-            </div>
-            {storeList.length === 0 && (
-              <p className="text-xs text-gray-600">店舗を登録すると購入先を管理できます</p>
-            )}
-            {storeList.map(s => (
-              <div key={s} className="flex items-center justify-between py-1">
-                <span className="text-xs text-gray-300">{s}</span>
-                <button onClick={() => onRemoveStore(s)} className="text-xs text-gray-600 hover:text-red-400">削除</button>
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
     </div>
   )
 }
