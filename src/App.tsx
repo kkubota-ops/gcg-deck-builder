@@ -4,6 +4,8 @@ import { SAMPLE_CARDS } from './data/sampleCards';
 import { useDeck, EX_TYPES, RESOURCE_TYPES, DEFAULT_RESOURCE_ID, MAX_EX_RESOURCE_TYPE } from './hooks/useDeck';
 import { useAuth } from './hooks/useAuth';
 import { usePostedDecks } from './hooks/usePostedDecks';
+import { useInventory } from './hooks/useInventory';
+import { usePurchaseList } from './hooks/usePurchaseList';
 import SearchFilter from './components/SearchFilter';
 import CardItem from './components/CardItem';
 import CardModal from './components/CardModal';
@@ -15,6 +17,8 @@ import AuthButton from './components/AuthButton';
 import CommunityTab from './components/CommunityTab';
 import PostDeckModal from './components/PostDeckModal'
 import NicknameModal from './components/NicknameModal';
+import InventoryTab from './components/InventoryTab';
+import PurchaseTab from './components/PurchaseTab';
 
 const DEFAULT_FILTERS: SearchFilters = {
   query: '',
@@ -36,7 +40,7 @@ const colorMap: Record<string, string> = Object.fromEntries(
   SAMPLE_CARDS.map((c) => [c.cardId, c.color])
 );
 
-type Tab = 'search' | 'deck' | 'community';
+type Tab = 'search' | 'deck' | 'inventory' | 'purchase' | 'community';
 
 export default function App() {
   const [tab, setTab] = useState<Tab>('search');
@@ -48,6 +52,8 @@ export default function App() {
 
   const { user, loading: authLoading, displayName, signInWithGoogle, signOut, updateDisplayName } = useAuth();
   const { decks: postedDecks, loading: communityLoading, postDeck, toggleLike, deletePostedDeck } = usePostedDecks(user?.id ?? null);
+  const { owned, setCount: setOwnedCount } = useInventory(user?.id ?? null);
+  const { items: purchaseItems, storeList, addItem: addPurchaseItem, updateItem: updatePurchaseItem, deleteItem: deletePurchaseItem, addStore, removeStore } = usePurchaseList(user?.id ?? null);
 
   const {
     decks,
@@ -148,6 +154,11 @@ export default function App() {
 
   const fillCard = cardById[DEFAULT_RESOURCE_ID] ?? null;
 
+  const purchasedCardIds = useMemo(
+    () => new Set(purchaseItems.map(i => i.card_id)),
+    [purchaseItems]
+  );
+
   const BASE_RARITY_RANK: Record<string, number> = { C: 0, U: 1, R: 2, LR: 3, P: 4 };
 
   function rarityLabel(rarity: string, parallel: string): string {
@@ -238,7 +249,7 @@ export default function App() {
       </header>
 
       {/* デッキ選択 */}
-      {tab !== 'community' && (
+      {(tab === 'search' || tab === 'deck' || tab === 'inventory') && (
         <DeckSelector
           decks={decks}
           activeDeckId={activeDeckId}
@@ -252,36 +263,27 @@ export default function App() {
 
       {/* タブ */}
       <div className="flex bg-[#1a1a1a] border-b border-gray-800">
-        <button
-          onClick={() => setTab('search')}
-          className={`flex-1 py-2.5 text-sm font-medium transition-colors ${
-            tab === 'search'
-              ? 'text-white border-b-2 border-blue-500'
-              : 'text-gray-500 hover:text-gray-300'
-          }`}
-        >
-          カード検索
-        </button>
-        <button
-          onClick={() => setTab('deck')}
-          className={`flex-1 py-2.5 text-sm font-medium transition-colors ${
-            tab === 'deck'
-              ? 'text-white border-b-2 border-blue-500'
-              : 'text-gray-500 hover:text-gray-300'
-          }`}
-        >
-          デッキ {totalCards > 0 && <span className="text-xs ml-1 opacity-70">({totalCards})</span>}
-        </button>
-        <button
-          onClick={() => setTab('community')}
-          className={`flex-1 py-2.5 text-sm font-medium transition-colors ${
-            tab === 'community'
-              ? 'text-white border-b-2 border-blue-500'
-              : 'text-gray-500 hover:text-gray-300'
-          }`}
-        >
-          みんなのデッキ
-        </button>
+        {(
+          [
+            { id: 'search',    label: '検索' },
+            { id: 'deck',      label: `デッキ${totalCards > 0 ? `(${totalCards})` : ''}` },
+            { id: 'inventory', label: '在庫' },
+            { id: 'purchase',  label: `購入${purchaseItems.length > 0 ? `(${purchaseItems.length})` : ''}` },
+            { id: 'community', label: 'みんな' },
+          ] as const
+        ).map(({ id, label }) => (
+          <button
+            key={id}
+            onClick={() => setTab(id)}
+            className={`flex-1 py-2.5 text-xs font-medium transition-colors ${
+              tab === id
+                ? 'text-white border-b-2 border-blue-500'
+                : 'text-gray-500 hover:text-gray-300'
+            }`}
+          >
+            {label}
+          </button>
+        ))}
       </div>
 
       {/* 検索タブ */}
@@ -349,6 +351,36 @@ export default function App() {
         </>
       )}
 
+      {/* 在庫タブ */}
+      {tab === 'inventory' && (
+        <InventoryTab
+          user={user}
+          mainCards={mainDeckCards}
+          exCards={exDeckCards}
+          resourceCards={resourceDeckCards}
+          owned={owned}
+          purchasedCardIds={purchasedCardIds}
+          onSetCount={setOwnedCount}
+          onAddToPurchase={(cardId, neededCount) => { addPurchaseItem(cardId, neededCount); setTab('purchase') }}
+          onSignIn={signInWithGoogle}
+        />
+      )}
+
+      {/* 購入リストタブ */}
+      {tab === 'purchase' && (
+        <PurchaseTab
+          user={user}
+          items={purchaseItems}
+          storeList={storeList}
+          cardById={cardById}
+          onUpdate={updatePurchaseItem}
+          onDelete={deletePurchaseItem}
+          onAddStore={addStore}
+          onRemoveStore={removeStore}
+          onSignIn={signInWithGoogle}
+        />
+      )}
+
       {/* みんなのデッキタブ */}
       {tab === 'community' && (
         <CommunityTab
@@ -363,8 +395,8 @@ export default function App() {
         />
       )}
 
-      {/* デッキバー（コミュニティタブでは非表示） */}
-      {tab !== 'community' && (
+      {/* デッキバー（検索・デッキタブのみ表示） */}
+      {(tab === 'search' || tab === 'deck') && (
         <DeckBar
           totalMain={totalCards}
           maxMain={totalDeckSize}
