@@ -20,6 +20,7 @@ type Props = {
   items: PurchaseItem[]
   storeList: string[]
   cardById: Record<string, Card>
+  deckCardOrder: string[]
   onUpdate: (id: string, patch: Partial<Omit<PurchaseItem, 'id' | 'card_id'>>) => void
   onDelete: (id: string) => void
   onAddStore: (name: string) => void
@@ -28,7 +29,7 @@ type Props = {
 }
 
 export default function PurchaseTab({
-  user, items, storeList, cardById,
+  user, items, storeList, cardById, deckCardOrder,
   onUpdate, onDelete, onAddStore, onRemoveStore, onSignIn,
 }: Props) {
   const [statusFilter, setStatusFilter] = useState<string>('all')
@@ -50,11 +51,19 @@ export default function PurchaseTab({
     )
   }
 
-  const filtered = items.filter(item => {
-    if (statusFilter !== 'all' && item.status !== statusFilter) return false
-    if (storeFilter !== 'all' && item.store !== storeFilter) return false
-    return true
-  })
+  const orderIndex = Object.fromEntries(deckCardOrder.map((id, i) => [id, i]))
+
+  const filtered = items
+    .filter(item => {
+      if (statusFilter !== 'all' && item.status !== statusFilter) return false
+      if (storeFilter !== 'all' && item.store !== storeFilter) return false
+      return true
+    })
+    .sort((a, b) => {
+      const ia = orderIndex[a.card_id] ?? 9999
+      const ib = orderIndex[b.card_id] ?? 9999
+      return ia - ib
+    })
 
   const totalPrice = filtered.reduce((s, i) => {
     if (!i.price) return s
@@ -64,7 +73,7 @@ export default function PurchaseTab({
   const completedCount = filtered.filter(i => i.purchased_count >= i.needed_count).length
 
   return (
-    <div className="flex-1 overflow-y-auto pb-14">
+    <div className="flex-1 overflow-y-auto pb-20">
       {/* フィルター */}
       <div className="px-3 py-2 border-b border-gray-800 space-y-2">
         <div className="flex gap-1 flex-wrap">

@@ -28,13 +28,14 @@ function CardRow({ item, ownedCount, isPurchased, onSetCount }: {
         <div className="text-[10px] text-gray-500">{item.card.cardId}</div>
         <div className="text-sm text-white truncate">{item.card.cardName}</div>
       </div>
-      <div className="text-xs text-gray-500 shrink-0">必要{item.count}枚</div>
       <div className="flex items-center gap-1 shrink-0">
         <button
           onClick={() => onSetCount(item.card.cardId, Math.max(0, ownedCount - 1))}
           className="w-7 h-7 rounded bg-gray-700 hover:bg-gray-600 text-white text-sm leading-none"
         >−</button>
-        <span className="w-5 text-center text-sm text-white tabular-nums">{ownedCount}</span>
+        <span className="min-w-[3.5rem] text-center text-xs text-white tabular-nums">
+          {ownedCount} / {item.count}枚
+        </span>
         <button
           onClick={() => onSetCount(item.card.cardId, ownedCount + 1)}
           className="w-7 h-7 rounded bg-gray-700 hover:bg-gray-600 text-white text-sm leading-none"
@@ -113,7 +114,7 @@ export default function InventoryTab({
   const missingTotal = neededTotal - ownedTotal
 
   return (
-    <div className="flex-1 overflow-y-auto px-3 pb-14">
+    <div className="flex-1 overflow-y-auto px-3 pb-20">
       <div className="py-3 flex items-center justify-between">
         <span className="text-xs text-gray-500">デッキ所持状況 <span className="text-gray-700">· 不足分は自動で購入リストに反映</span></span>
         <div className="flex items-center gap-3 text-xs">

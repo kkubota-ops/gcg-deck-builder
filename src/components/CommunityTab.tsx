@@ -82,7 +82,7 @@ export default function CommunityTab({ decks, loading, user, onLike, onDelete, o
   }
 
   return (
-    <div className="flex-1 overflow-y-auto pb-14">
+    <div className="flex-1 overflow-y-auto pb-16">
       {/* フィルタ・ソートエリア */}
       <div className="bg-[#1a1a1a] border-b border-gray-800 px-3 pt-3 pb-2 space-y-2">
         <div className="flex gap-2 flex-wrap items-center">

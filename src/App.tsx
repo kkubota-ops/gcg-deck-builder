@@ -167,6 +167,10 @@ export default function App() {
     return map
   }, [mainDeckCards, exDeckCards, resourceDeckCards]);
 
+  const deckCardOrder = useMemo(() => (
+    [...mainDeckCards, ...exDeckCards, ...resourceDeckCards].map(({ card }) => card.cardId)
+  ), [mainDeckCards, exDeckCards, resourceDeckCards]);
+
   function handleSetOwnedCount(cardId: string, newCount: number) {
     setOwnedCount(cardId, newCount);
     const missing = Math.max(0, (deckCountById[cardId] ?? 0) - newCount);
@@ -275,12 +279,36 @@ export default function App() {
         />
       )}
 
+      {/* タブ */}
+      <div className="flex bg-[#1a1a1a] border-b border-gray-800">
+        {(
+          [
+            { id: 'search',    label: '検索' },
+            { id: 'deck',      label: `デッキ${totalCards > 0 ? `(${totalCards})` : ''}` },
+            { id: 'inventory', label: '在庫' },
+            { id: 'purchase',  label: `購入${purchaseItems.length > 0 ? `(${purchaseItems.length})` : ''}` },
+            { id: 'community', label: 'みんな' },
+          ] as const
+        ).map(({ id, label }) => (
+          <button
+            key={id}
+            onClick={() => setTab(id)}
+            className={`flex-1 py-2.5 text-xs font-medium transition-colors ${
+              tab === id
+                ? 'text-white border-b-2 border-blue-500'
+                : 'text-gray-500 hover:text-gray-300'
+            }`}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
 
       {/* 検索タブ */}
       {tab === 'search' && (
         <>
           <SearchFilter filters={filters} onChange={setFilters} />
-          <main className="flex-1 overflow-y-auto px-3 pb-36">
+          <main className="flex-1 overflow-y-auto px-3 pb-16">
             <div className="pt-2 pb-1 flex items-center justify-between">
               <span className="text-xs text-gray-600">カードID / カード名</span>
               <span className="text-xs text-gray-600">cost/level</span>
@@ -362,6 +390,7 @@ export default function App() {
           items={purchaseItems}
           storeList={storeList}
           cardById={cardById}
+          deckCardOrder={deckCardOrder}
           onUpdate={updatePurchaseItem}
           onDelete={deletePurchaseItem}
           onAddStore={addStore}
@@ -445,30 +474,6 @@ export default function App() {
         />
       )}
 
-      {/* フッタータブナビ */}
-      <nav className="fixed bottom-0 left-0 right-0 z-30 max-w-lg mx-auto w-full flex bg-[#0f0f0f] border-t border-gray-800 pb-[env(safe-area-inset-bottom,0px)]">
-        {(
-          [
-            { id: 'search',    label: '検索' },
-            { id: 'deck',      label: `デッキ${totalCards > 0 ? `(${totalCards})` : ''}` },
-            { id: 'inventory', label: '在庫' },
-            { id: 'purchase',  label: `購入${purchaseItems.length > 0 ? `(${purchaseItems.length})` : ''}` },
-            { id: 'community', label: 'みんな' },
-          ] as const
-        ).map(({ id, label }) => (
-          <button
-            key={id}
-            onClick={() => setTab(id)}
-            className={`flex-1 py-3 text-xs font-medium transition-colors ${
-              tab === id
-                ? 'text-white border-t-2 border-blue-500'
-                : 'text-gray-500 hover:text-gray-300'
-            }`}
-          >
-            {label}
-          </button>
-        ))}
-      </nav>
     </div>
   );
 }
