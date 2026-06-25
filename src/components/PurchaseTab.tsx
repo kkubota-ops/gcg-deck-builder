@@ -64,7 +64,7 @@ export default function PurchaseTab({
   const completedCount = filtered.filter(i => i.purchased_count >= i.needed_count).length
 
   return (
-    <div className="flex-1 overflow-y-auto pb-20">
+    <div className="flex-1 overflow-y-auto pb-14">
       {/* フィルター */}
       <div className="px-3 py-2 border-b border-gray-800 space-y-2">
         <div className="flex gap-1 flex-wrap">
@@ -97,7 +97,7 @@ export default function PurchaseTab({
         <div className="px-3 py-2 flex justify-between text-xs text-gray-500 bg-gray-900">
           <span>{filtered.length}件 / 完了{completedCount}件</span>
           {totalPrice > 0 && (
-            <span className="text-yellow-400">残計 ¥{totalPrice.toLocaleString('ja-JP')}</span>
+            <span className="text-yellow-400">合計金額 ¥{totalPrice.toLocaleString('ja-JP')}</span>
           )}
         </div>
       )}

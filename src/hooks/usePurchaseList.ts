@@ -61,5 +61,19 @@ export function usePurchaseList(userId: string | null) {
     setStoreList(newList)
   }
 
-  return { items, storeList, addItem, updateItem, deleteItem, addStore, removeStore }
+  async function syncItem(cardId: string, missingCount: number) {
+    if (!userId) return
+    const existing = items.find(i => i.card_id === cardId)
+    if (missingCount <= 0) {
+      if (existing) await deleteItem(existing.id)
+    } else if (existing) {
+      if (existing.needed_count !== missingCount) {
+        await updateItem(existing.id, { needed_count: missingCount })
+      }
+    } else {
+      await addItem(cardId, missingCount)
+    }
+  }
+
+  return { items, storeList, addItem, updateItem, deleteItem, addStore, removeStore, syncItem }
 }

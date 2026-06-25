@@ -28,7 +28,7 @@ export default function DeckBar({
   return (
     <button
       onClick={onTap}
-      className="fixed bottom-0 left-0 right-0 z-40 w-full bg-[#0f0f0f] border-t border-gray-800 px-4 py-2 pb-[env(safe-area-inset-bottom,8px)] active:bg-[#1a1a1a] transition-colors"
+      className="fixed bottom-12 left-0 right-0 z-40 w-full bg-[#0f0f0f] border-t border-gray-800 px-4 py-2 active:bg-[#1a1a1a] transition-colors"
     >
       <div className="max-w-lg mx-auto space-y-1">
         {/* メインデッキ */}

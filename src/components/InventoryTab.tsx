@@ -11,16 +11,14 @@ type Props = {
   owned: Record<string, number>
   purchasedCardIds: Set<string>
   onSetCount: (cardId: string, count: number) => void
-  onAddToPurchase: (cardId: string, neededCount: number) => void
   onSignIn: () => void
 }
 
-function CardRow({ item, ownedCount, isPurchased, onSetCount, onAddToPurchase }: {
+function CardRow({ item, ownedCount, isPurchased, onSetCount }: {
   item: DeckCard
   ownedCount: number
   isPurchased: boolean
   onSetCount: (cardId: string, count: number) => void
-  onAddToPurchase: (cardId: string, neededCount: number) => void
 }) {
   const missing = Math.max(0, item.count - ownedCount)
 
@@ -44,16 +42,9 @@ function CardRow({ item, ownedCount, isPurchased, onSetCount, onAddToPurchase }:
       </div>
       <div className="w-16 shrink-0 text-right">
         {missing > 0 ? (
-          <button
-            onClick={() => !isPurchased && onAddToPurchase(item.card.cardId, missing)}
-            className={`text-xs px-2 py-1 rounded w-full ${
-              isPurchased
-                ? 'bg-gray-800 text-gray-500 cursor-default'
-                : 'bg-orange-700 hover:bg-orange-600 text-white'
-            }`}
-          >
-            {isPurchased ? 'リスト済' : `不足${missing}`}
-          </button>
+          <span className={`text-xs ${isPurchased ? 'text-orange-400' : 'text-orange-300'}`}>
+            不足{missing}枚
+          </span>
         ) : (
           <span className="text-xs text-green-500">✓ 完備</span>
         )}
@@ -62,13 +53,12 @@ function CardRow({ item, ownedCount, isPurchased, onSetCount, onAddToPurchase }:
   )
 }
 
-function Section({ label, cards, owned, purchasedCardIds, onSetCount, onAddToPurchase }: {
+function Section({ label, cards, owned, purchasedCardIds, onSetCount }: {
   label: string
   cards: DeckCard[]
   owned: Record<string, number>
   purchasedCardIds: Set<string>
   onSetCount: (cardId: string, count: number) => void
-  onAddToPurchase: (cardId: string, neededCount: number) => void
 }) {
   if (cards.length === 0) return null
   return (
@@ -81,7 +71,6 @@ function Section({ label, cards, owned, purchasedCardIds, onSetCount, onAddToPur
           ownedCount={owned[card.cardId] ?? 0}
           isPurchased={purchasedCardIds.has(card.cardId)}
           onSetCount={onSetCount}
-          onAddToPurchase={onAddToPurchase}
         />
       ))}
     </>
@@ -91,7 +80,7 @@ function Section({ label, cards, owned, purchasedCardIds, onSetCount, onAddToPur
 export default function InventoryTab({
   user, mainCards, exCards, resourceCards,
   owned, purchasedCardIds,
-  onSetCount, onAddToPurchase, onSignIn,
+  onSetCount, onSignIn,
 }: Props) {
   if (!user) {
     return (
@@ -124,18 +113,18 @@ export default function InventoryTab({
   const missingTotal = neededTotal - ownedTotal
 
   return (
-    <div className="flex-1 overflow-y-auto px-3 pb-20">
+    <div className="flex-1 overflow-y-auto px-3 pb-14">
       <div className="py-3 flex items-center justify-between">
-        <span className="text-xs text-gray-500">デッキ所持状況</span>
+        <span className="text-xs text-gray-500">デッキ所持状況 <span className="text-gray-700">· 不足分は自動で購入リストに反映</span></span>
         <div className="flex items-center gap-3 text-xs">
           <span className="text-gray-400">所持 {ownedTotal}/{neededTotal}枚</span>
           {missingTotal > 0 && <span className="text-orange-400">不足 {missingTotal}枚</span>}
           {missingTotal === 0 && <span className="text-green-500">✓ 完備</span>}
         </div>
       </div>
-      <Section label="メインデッキ" cards={mainCards} owned={owned} purchasedCardIds={purchasedCardIds} onSetCount={onSetCount} onAddToPurchase={onAddToPurchase} />
-      <Section label="EXデッキ" cards={exCards} owned={owned} purchasedCardIds={purchasedCardIds} onSetCount={onSetCount} onAddToPurchase={onAddToPurchase} />
-      <Section label="リソースデッキ" cards={resourceCards} owned={owned} purchasedCardIds={purchasedCardIds} onSetCount={onSetCount} onAddToPurchase={onAddToPurchase} />
+      <Section label="メインデッキ" cards={mainCards} owned={owned} purchasedCardIds={purchasedCardIds} onSetCount={onSetCount} />
+      <Section label="EXデッキ" cards={exCards} owned={owned} purchasedCardIds={purchasedCardIds} onSetCount={onSetCount} />
+      <Section label="リソースデッキ" cards={resourceCards} owned={owned} purchasedCardIds={purchasedCardIds} onSetCount={onSetCount} />
     </div>
   )
 }

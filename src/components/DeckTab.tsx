@@ -131,7 +131,7 @@ export default function DeckTab({
   }
 
   return (
-    <div className="flex-1 overflow-y-auto pb-16 space-y-1">
+    <div className="flex-1 overflow-y-auto pb-36 space-y-1">
       {/* 保存バナー */}
       {canSave && (
         <div className="mx-3 mt-3 rounded-xl border border-green-700 bg-green-900/20 px-4 py-3">
