@@ -322,7 +322,7 @@ export default function App() {
             { id: 'deck',      label: `デッキ${totalCards > 0 ? `(${totalCards})` : ''}` },
             { id: 'inventory', label: '在庫' },
             { id: 'purchase',  label: `購入${purchaseItems.length > 0 ? `(${purchaseItems.length})` : ''}` },
-            { id: 'community', label: 'みんな' },
+            { id: 'community', label: 'みんなのデッキ' },
           ] as const
         ).map(({ id, label }) => (
           <button
