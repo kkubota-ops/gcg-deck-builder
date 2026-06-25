@@ -204,7 +204,7 @@ export default function App() {
       const missing = Math.max(0, count - (ownedRef.current[card.cardId] ?? 0))
       syncPurchaseItem(card.cardId, missing)
     })
-  }, [tab, user]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [tab, user, activeDeckId]) // eslint-disable-line react-hooks/exhaustive-deps
 
   function handleSetOwnedCount(cardId: string, newCount: number) {
     setOwnedCount(cardId, newCount);
@@ -302,7 +302,7 @@ export default function App() {
       </header>
 
       {/* デッキ選択 */}
-      {(tab === 'search' || tab === 'deck' || tab === 'inventory') && (
+      {(tab === 'search' || tab === 'deck' || tab === 'inventory' || tab === 'purchase') && (
         <DeckSelector
           decks={decks}
           activeDeckId={activeDeckId}
