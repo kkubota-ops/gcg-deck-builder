@@ -162,21 +162,6 @@ export default function DeckTab({
         </section>
       )}
 
-      {/* EXデッキ */}
-      {(exCards.length > 0) && (
-        <section>
-          <SectionHeader label="EXデッキ (1種5枚まで)" total={totalEx} max={exDeckSize} />
-          <div className="px-3 space-y-1.5">
-            {exCards.map(({ card, count }) => (
-              <CardRowItem key={card.cardId} card={card} count={count}
-                selectedVariants={selectedVariants}
-                exResourceTotal={exResourceTotal} exResourceTypeMax={exResourceTypeMax}
-                onAdd={onAdd} onRemove={onRemove} onCardClick={onCardClick} />
-            ))}
-          </div>
-        </section>
-      )}
-
       {/* リソースデッキ */}
       {(resourceCards.length > 0 || resourceFill > 0) && (
         <section>
@@ -196,6 +181,21 @@ export default function DeckTab({
                 <span className="ml-auto text-sm font-bold text-gray-500 tabular-nums">{resourceFill}</span>
               </div>
             )}
+          </div>
+        </section>
+      )}
+
+      {/* EXデッキ */}
+      {(exCards.length > 0) && (
+        <section>
+          <SectionHeader label="EXデッキ (1種5枚まで)" total={totalEx} max={exDeckSize} />
+          <div className="px-3 space-y-1.5">
+            {exCards.map(({ card, count }) => (
+              <CardRowItem key={card.cardId} card={card} count={count}
+                selectedVariants={selectedVariants}
+                exResourceTotal={exResourceTotal} exResourceTypeMax={exResourceTypeMax}
+                onAdd={onAdd} onRemove={onRemove} onCardClick={onCardClick} />
+            ))}
           </div>
         </section>
       )}

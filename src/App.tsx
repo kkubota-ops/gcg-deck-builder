@@ -20,6 +20,25 @@ import NicknameModal from './components/NicknameModal';
 import InventoryTab from './components/InventoryTab';
 import PurchaseTab from './components/PurchaseTab';
 
+const TYPE_ORDER: Record<string, number> = { UNIT: 0, PILOT: 1, COMMAND: 2, BASE: 3 };
+const COLOR_RANK: Record<string, number> = Object.fromEntries(
+  ['Blue', 'Green', 'Purple', 'Red', 'White', 'Yellow'].map((c, i) => [c, i])
+);
+
+function sortDeckCards(
+  a: { card: Card; count: number },
+  b: { card: Card; count: number }
+): number {
+  const typeA = TYPE_ORDER[a.card.cardType] ?? 99;
+  const typeB = TYPE_ORDER[b.card.cardType] ?? 99;
+  if (typeA !== typeB) return typeA - typeB;
+  if (a.card.cost !== b.card.cost) return a.card.cost - b.card.cost;
+  const colorA = COLOR_RANK[a.card.color] ?? 99;
+  const colorB = COLOR_RANK[b.card.color] ?? 99;
+  if (colorA !== colorB) return colorA - colorB;
+  return a.card.cardId.localeCompare(b.card.cardId);
+}
+
 const DEFAULT_FILTERS: SearchFilters = {
   query: '',
   color: '',
@@ -109,7 +128,7 @@ export default function App() {
     Object.entries(activeDeck.cards)
       .map(([id, count]) => ({ card: cardById[id], count }))
       .filter((x): x is { card: Card; count: number } => x.card != null)
-      .sort((a, b) => a.card.cardId.localeCompare(b.card.cardId)),
+      .sort(sortDeckCards),
     [activeDeck.cards]
   );
 
@@ -117,7 +136,7 @@ export default function App() {
     Object.entries(activeDeck.exCards)
       .map(([id, count]) => ({ card: cardById[id], count }))
       .filter((x): x is { card: Card; count: number } => x.card != null)
-      .sort((a, b) => a.card.cardId.localeCompare(b.card.cardId)),
+      .sort(sortDeckCards),
     [activeDeck.exCards]
   );
 
@@ -132,7 +151,7 @@ export default function App() {
     Object.entries(activeDeck.resourceCards)
       .map(([id, count]) => ({ card: cardById[id], count }))
       .filter((x): x is { card: Card; count: number } => x.card != null)
-      .sort((a, b) => a.card.cardId.localeCompare(b.card.cardId)),
+      .sort(sortDeckCards),
     [activeDeck.resourceCards]
   );
 

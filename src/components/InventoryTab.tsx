@@ -124,8 +124,8 @@ export default function InventoryTab({
         </div>
       </div>
       <Section label="メインデッキ" cards={mainCards} owned={owned} purchasedCardIds={purchasedCardIds} onSetCount={onSetCount} />
-      <Section label="EXデッキ" cards={exCards} owned={owned} purchasedCardIds={purchasedCardIds} onSetCount={onSetCount} />
       <Section label="リソースデッキ" cards={resourceCards} owned={owned} purchasedCardIds={purchasedCardIds} onSetCount={onSetCount} />
+      <Section label="EXデッキ" cards={exCards} owned={owned} purchasedCardIds={purchasedCardIds} onSetCount={onSetCount} />
     </div>
   )
 }
