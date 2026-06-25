@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
 import type { Card, SearchFilters } from './types';
 import { SAMPLE_CARDS } from './data/sampleCards';
 import { useDeck, EX_TYPES, RESOURCE_TYPES, DEFAULT_RESOURCE_ID, MAX_EX_RESOURCE_TYPE } from './hooks/useDeck';
@@ -189,6 +189,22 @@ export default function App() {
   const deckCardOrder = useMemo(() => (
     [...mainDeckCards, ...exDeckCards, ...resourceDeckCards].map(({ card }) => card.cardId)
   ), [mainDeckCards, exDeckCards, resourceDeckCards]);
+
+  // 購入タブ切り替え時にデッキ全カードの不足枚数を一括sync
+  const ownedRef = useRef(owned)
+  ownedRef.current = owned
+  const deckCardsRef = useRef({ mainDeckCards, exDeckCards, resourceDeckCards })
+  deckCardsRef.current = { mainDeckCards, exDeckCards, resourceDeckCards }
+
+  useEffect(() => {
+    if (tab !== 'purchase' || !user) return
+    const { mainDeckCards: main, exDeckCards: ex, resourceDeckCards: resource } = deckCardsRef.current
+    const allCards = [...main, ...ex, ...resource]
+    allCards.forEach(({ card, count }) => {
+      const missing = Math.max(0, count - (ownedRef.current[card.cardId] ?? 0))
+      syncPurchaseItem(card.cardId, missing)
+    })
+  }, [tab, user]) // eslint-disable-line react-hooks/exhaustive-deps
 
   function handleSetOwnedCount(cardId: string, newCount: number) {
     setOwnedCount(cardId, newCount);
